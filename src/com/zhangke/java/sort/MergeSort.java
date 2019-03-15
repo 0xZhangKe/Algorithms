@@ -1,14 +1,16 @@
-package com.zhangke.java;
+package com.zhangke.java.sort;
 
+import com.zhangke.java.Util;
 import sun.plugin.util.UIUtil;
 
-public class MergeSort {
+public class MergeSort implements Sortable{
 
-    public static void sort(int[] data) {
+    @Override
+    public void sort(int[] data) {
         doSort(data, 0, data.length - 1);
     }
 
-    public static void doSort(int[] data, int left, int right) {
+    private void doSort(int[] data, int left, int right) {
         if (left >= right)
             return;
         System.out.println();
@@ -30,7 +32,7 @@ public class MergeSort {
      * @param center 左数组的最后一个元素的索引，center+1是右数组第一个元素的索引
      * @param right  右数组最后一个元素的索引
      */
-    private static void merge(int[] data, int left, int center, int right) {
+    private void merge(int[] data, int left, int center, int right) {
         System.out.println(String.format("->\nleft:%s,center:%s,right:%s\nbefore:", left, center, right));
         Util.printArray(data);
         // 临时数组
@@ -66,7 +68,7 @@ public class MergeSort {
         System.out.println("\n<-\n\n");
     }
 
-    public static void sortUseLoop(int[] arr) {
+    private void sortUseLoop(int[] arr) {
         int[] orderedArr = new int[arr.length];
         for (int i = 2; i < arr.length * 2; i *= 2) {
             for (int j = 0; j < (arr.length + i - 1) / i; j++) {
