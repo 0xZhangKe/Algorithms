@@ -3,6 +3,11 @@ package com.zhangke.java.sort;
 import com.zhangke.java.Util;
 import sun.plugin.util.UIUtil;
 
+/**
+ * 归并排序
+ *
+ * Created by ZhangKe on 2019/2/17.
+ */
 public class MergeSort implements Sortable{
 
     @Override

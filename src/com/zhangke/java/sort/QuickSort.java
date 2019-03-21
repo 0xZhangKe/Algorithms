@@ -2,11 +2,20 @@ package com.zhangke.java.sort;
 
 import java.util.Stack;
 
+/**
+ * 快速排序
+ *
+ * Created by ZhangKe on 2019/2/17.
+ */
 public class QuickSort implements Sortable {
 
     @Override
     public void sort(int[] arr) {
         doSortUseRecursion(arr, 0, arr.length - 1);
+    }
+
+    public void sort(int[] data, int start, int end) {
+        doSortUseRecursion(data, start, end);
     }
 
     /**

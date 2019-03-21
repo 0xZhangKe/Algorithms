@@ -2,6 +2,8 @@ package com.zhangke.java.sort;
 
 /**
  * 插入排序
+ *
+ * Created by ZhangKe on 2019/3/16.
  */
 public class InsertSort implements Sortable{
 
