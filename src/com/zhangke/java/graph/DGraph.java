@@ -23,12 +23,12 @@ public interface DGraph<V> {
      *
      * @return 新增端点的编号，-1表示插入失败
      */
-    int add(V v);
+    int add(Vertex<V> v);
 
     /**
      * 添加一个边
      */
-    void add(Edge<V> e);
+    void add(Edge<Vertex<V>> e);
 
     /**
      * 删除一个顶点，与其相连的边也会被删除
@@ -42,14 +42,14 @@ public interface DGraph<V> {
      *
      * @return 被删除的边，如果找不到对应的边则返回null
      */
-    Edge<V> remove(Edge<V> e);
+    Edge<Vertex<V>> remove(Edge<Vertex<V>> e);
 
     /**
      * 获得一个顶点
      *
      * @param index 顶点的编号
      */
-    V get(int index);
+    Vertex<V> get(int index);
 
     /**
      * 获得一条边
@@ -57,7 +57,12 @@ public interface DGraph<V> {
      * @param src  起点的编号
      * @param dest 终点的编号
      */
-    Edge<V> get(int src, int dest);
+    Edge<Vertex<V>> get(int src, int dest);
+
+    /**
+     * 获取定点位置
+     */
+    int get(Vertex<V> v);
 
     /**
      * 得到当前图的迭代器，用于对图进行遍历
@@ -71,4 +76,9 @@ public interface DGraph<V> {
      * 将图转换为无环图
      */
     void convertDAG();
+
+    /**
+     * 获取图大小
+     */
+    int size();
 }

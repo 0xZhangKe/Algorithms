@@ -13,85 +13,6 @@ import java.util.Queue;
 public class ListDGraph<V> implements DGraph<V> {
 
     /**
-     * 顶点对象，其中有对应的顶点以及从以此顶点为起点的边
-     */
-    private class VE {
-        /**
-         * 此顶点
-         */
-        private V v;
-        /**
-         * 以此顶点为起点的边的集合，是一个列表，列表的每一项是一条边
-         */
-        private List<Edge<V>> mEdgeList;
-
-        /**
-         * 构造一个新的顶点对象
-         */
-        public VE(V v) {
-            this.v = v;
-            this.mEdgeList = new LinkedList<Edge<V>>();
-            Utils.log("VE construct : %s", v);
-        }
-
-        @Override
-        public String toString() {
-            return String.format("v : %s , list len : %s",
-                    v, mEdgeList.size());
-        }
-
-        /**
-         * 将一条边添加到边集合中
-         */
-        public void addEdge(Edge<V> e) {
-            Utils.log("add edge : %s", e);
-            if (getEdge(e.getDest()) == null) {
-                mEdgeList.add(e);
-            } else {
-                Utils.log("edge exist : %s", e);
-            }
-        }
-
-        /**
-         * 读取某条边
-         */
-        public Edge<V> getEdge(V dest) {
-            Edge<V> ret = null;
-            if (dest != null) {
-                for (Edge<V> edge : mEdgeList) {
-                    if (edge.getDest() != null &&
-                            dest.equals(edge.getDest())) {
-                        Utils.log("get edge : %s", edge);
-                        ret = edge;
-                        break;
-                    }
-                }
-            }
-            return ret;
-        }
-
-        /**
-         * 删除某条边
-         */
-        public Edge<V> removeEdge(V dest) {
-            Edge<V> ret = null;
-            if (dest != null) {
-                for (Edge<V> edge : mEdgeList) {
-                    if (edge.getDest() != null &&
-                            dest.equals(edge.getDest())) {
-                        Utils.log("remove edge : %s", edge);
-                        ret = edge;
-                        mEdgeList.remove(edge);
-                        break;
-                    }
-                }
-            }
-            return ret;
-        }
-    }
-
-
-    /**
      * 广度优先的迭代器
      */
     private class BFSIterator implements Iterator<V> {
@@ -106,8 +27,6 @@ public class ListDGraph<V> implements DGraph<V> {
 
         /**
          * 构造广度优先迭代器
-         *
-         * @param root
          */
         public BFSIterator(V root) {
             mVisitList = new LinkedList<V>();
@@ -120,11 +39,7 @@ public class ListDGraph<V> implements DGraph<V> {
         @Override
         public boolean hasNext() {
             Utils.log("queue size : " + mVQueue.size());
-            if (mVQueue.size() > 0) {
-                return true;
-            } else {
-                return false;
-            }
+            return mVQueue.size() > 0;
         }
 
         @Override
@@ -136,14 +51,14 @@ public class ListDGraph<V> implements DGraph<V> {
                 //2.将此元素的邻接边中对应顶点入队列，这些顶点需要符合以下条件：
                 //1)没访问过；
                 //2)不在队列中；
-                VE ve = getVE(v);
+                Vertex<V> ve = getVE(v);
                 if (ve != null) {
-                    List<Edge<V>> list = ve.mEdgeList;
-                    for (Edge<V> edge : list) {
-                        V dest = edge.getDest();
-                        if (!VinList(dest, mVisitList.iterator()) &&
-                                !VinList(dest, mVQueue.iterator())) {
-                            mVQueue.offer(dest);
+                    List<Edge<Vertex<V>>> list = ve.getEdgeList();
+                    for (Edge<Vertex<V>> edge : list) {
+                        Vertex<V> dest = edge.getDest();
+                        if (!VinList(dest.getValue(), mVisitList.iterator()) &&
+                                !VinList(dest.getValue(), mVQueue.iterator())) {
+                            mVQueue.offer(dest.getValue());
                             Utils.log("add to queue : " + dest);
                         }
                     }
@@ -167,33 +82,32 @@ public class ListDGraph<V> implements DGraph<V> {
     /**
      * 顶点列表，由于会经常进行插入删除，使用链表队列
      */
-    private LinkedList<VE> mVEList;
+    private LinkedList<Vertex<V>> mVEList;
 
     /**
      * 构造邻接链表有向图
      */
     public ListDGraph() {
-        mVEList = new LinkedList<VE>();
+        mVEList = new LinkedList<>();
         Utils.log("ListDGraph construct!");
     }
 
     @Override
-    public int add(V v) {
+    public int add(Vertex<V> v) {
         int index = -1;
         if (v != null) {
             Utils.log("add v: %s", v);
-            VE list = new VE(v);
-            mVEList.add(list);
-            index = mVEList.indexOf(list);
+            mVEList.add(v);
+            index = mVEList.indexOf(v);
         }
         return index;
     }
 
     @Override
-    public void add(Edge<V> e) {
+    public void add(Edge<Vertex<V>> e) {
         if (e != null) {
             Utils.log("add edge: %s", e);
-            VE ve = getVE(e.getSource());
+            Vertex<V> ve = getVE(e.getSource().getValue());
             if (ve != null) {
                 //若边的起点已经在列表里，则直接将其添加到对应的顶点对象中
                 ve.addEdge(e);
@@ -207,51 +121,45 @@ public class ListDGraph<V> implements DGraph<V> {
     @Override
     public V remove(V v) {
         V ret = null;
-
-        VE ve = removeVE(v);
+        Vertex<V> ve = removeVE(v);
         if (ve != null) {
-            ret = ve.v;
+            ret = ve.getValue();
         }
-
         removeRelateEdge(v);
-
         return ret;
     }
 
     @Override
-    public Edge<V> remove(Edge<V> e) {
-        Edge<V> ret = null;
-
+    public Edge<Vertex<V>> remove(Edge<Vertex<V>> e) {
+        Edge<Vertex<V>> ret = null;
         if (e != null) {
-            VE ve = getVE(e.getSource());
+            Vertex<V> ve = getVE(e.getDest().getValue());
             if (ve != null) {
-                ret = ve.removeEdge(e.getDest());
+                ret = ve.removeEdge(e.getSource());
             }
         }
-
         return ret;
     }
 
     @Override
-    public V get(int index) {
-        V ret = null;
+    public Vertex<V> get(int index) {
+        Vertex<V> vertex = null;
         if (index >= 0 && index < mVEList.size()) {
-            VE ve = mVEList.get(index);
-            if (ve != null) {
-                ret = ve.v;
-                Utils.log("get , index : %s , v : %s", index, ret);
+            vertex = mVEList.get(index);
+            if (vertex != null) {
+                Utils.log("get, index : %s, value: %s", index, vertex.getValue());
             }
         }
-        return ret;
+        return vertex;
     }
 
     @Override
-    public Edge<V> get(int src, int dest) {
-        Edge<V> ret = null;
-        V s = get(src);
-        V d = get(dest);
+    public Edge<Vertex<V>> get(int src, int dest) {
+        Edge<Vertex<V>> ret = null;
+        Vertex<V> s = get(src);
+        Vertex<V> d = get(dest);
         if (s != null && d != null) {
-            VE ve = getVE(s);
+            Vertex<V> ve = getVE(s.getValue());
             if (ve != null) {
                 ret = ve.getEdge(d);
             }
@@ -274,9 +182,19 @@ public class ListDGraph<V> implements DGraph<V> {
     }
 
     @Override
+    public int get(Vertex<V> v) {
+        return mVEList.indexOf(v);
+    }
+
+    @Override
     public void convertDAG() {
         // TODO Auto-generated method stub
 
+    }
+
+    @Override
+    public int size() {
+        return mVEList.size();
     }
 
     //////////////////////////////私有方法//////////////////////////////
@@ -284,11 +202,11 @@ public class ListDGraph<V> implements DGraph<V> {
     /**
      * 从顶点对象列表中读取输入顶点对应的对象
      */
-    private VE getVE(V v) {
-        VE ret = null;
+    private Vertex<V> getVE(V v) {
+        Vertex<V> ret = null;
         if (v != null) {
-            for (VE ve : mVEList) {
-                if (ve.v != null && v.equals(ve.v)) {
+            for (Vertex<V> ve : mVEList) {
+                if (ve.getValue() != null && v.equals(ve.getValue())) {
                     Utils.log("getVE : %s", ve);
                     ret = ve;
                     break;
@@ -301,11 +219,11 @@ public class ListDGraph<V> implements DGraph<V> {
     /**
      * 从顶点对象列表中删除输入顶点对应的对象
      */
-    private VE removeVE(V v) {
-        VE ret = null;
+    private Vertex<V> removeVE(V v) {
+        Vertex<V> ret = null;
         if (v != null) {
-            for (VE ve : mVEList) {
-                if (ve.v != null && v.equals(ve.v)) {
+            for (Vertex<V> ve : mVEList) {
+                if (ve.getValue() != null && v.equals(ve.getValue())) {
                     Utils.log("removeVE : %s", v);
                     ret = ve;
                     mVEList.remove(ve);
@@ -321,8 +239,8 @@ public class ListDGraph<V> implements DGraph<V> {
      */
     private void removeRelateEdge(V v) {
         if (v != null) {
-            for (VE ve : mVEList) {
-                ve.removeEdge(v);
+            for (Vertex<V> ve : mVEList) {
+                ve.removeEdge(getVE(v));
             }
         }
     }
