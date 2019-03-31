@@ -8,7 +8,7 @@ import com.zhangke.java.graph.adt.Vertex;
 import java.util.*;
 
 /**
- * 无权有向最短路径
+ * 无权有向有圈最短路径
  * <p>
  * Created by ZhangKe on 2019/3/31.
  */
