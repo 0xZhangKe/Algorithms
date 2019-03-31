@@ -10,7 +10,7 @@ public class Edge<V> {
     /**终点*/
     private V dest;
     /**权值*/
-    private double weight;
+    private int weight;
 
     /**
      * 不带权值的一条边
@@ -22,7 +22,7 @@ public class Edge<V> {
     /**
      * 带权值的一条边
      */
-    public Edge(V src, V dest, double weight) {
+    public Edge(V src, V dest, int weight) {
         this.src = src;
         this.dest = dest;
         this.weight = weight;
@@ -45,7 +45,7 @@ public class Edge<V> {
     /**
      * 获取权值
      */
-    public double getWeight() {
+    public int getWeight() {
         return this.weight;
     }
 
