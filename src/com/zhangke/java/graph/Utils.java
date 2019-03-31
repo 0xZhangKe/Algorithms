@@ -1,6 +1,6 @@
 package com.zhangke.java.graph;
 
-import com.zhangke.java.graph.tree.BinaryTreeNode;
+import com.zhangke.java.graph.adt.tree.BinaryTreeNode;
 
 /**
  * 一些工具类

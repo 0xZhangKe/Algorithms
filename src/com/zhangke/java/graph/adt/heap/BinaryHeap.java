@@ -1,4 +1,4 @@
-package com.zhangke.java.graph.heap;
+package com.zhangke.java.graph.adt.heap;
 
 import java.util.ArrayList;
 import java.util.List;

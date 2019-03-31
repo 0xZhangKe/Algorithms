@@ -1,4 +1,4 @@
-package com.zhangke.java.graph.tree;
+package com.zhangke.java.graph.adt.tree;
 
 /**
  * 二叉树

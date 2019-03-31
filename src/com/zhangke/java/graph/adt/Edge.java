@@ -1,4 +1,4 @@
-package com.zhangke.java.graph;
+package com.zhangke.java.graph.adt;
 
 /**
  * 一条边，可以根据需要继承此类

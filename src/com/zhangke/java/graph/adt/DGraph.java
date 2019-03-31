@@ -1,4 +1,4 @@
-package com.zhangke.java.graph;
+package com.zhangke.java.graph.adt;
 
 import java.util.Iterator;
 

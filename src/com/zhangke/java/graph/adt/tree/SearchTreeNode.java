@@ -1,8 +1,6 @@
-package com.zhangke.java.graph.tree;
+package com.zhangke.java.graph.adt.tree;
 
 import com.zhangke.java.graph.Utils;
-
-import java.util.TreeMap;
 
 /**
  * 二叉查找树

@@ -1,4 +1,6 @@
-package com.zhangke.java.graph;
+package com.zhangke.java.graph.adt;
+
+import com.zhangke.java.graph.Utils;
 
 import java.util.Iterator;
 import java.util.LinkedList;
