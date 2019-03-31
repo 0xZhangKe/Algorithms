@@ -8,26 +8,14 @@ import com.zhangke.java.graph.adt.Vertex;
 import java.util.*;
 
 /**
- * 无权最短路径
+ * 无权有向最短路径
  * <p>
  * Created by ZhangKe on 2019/3/31.
  */
 public class NoWeightShortestPath {
 
-    private static final int INFINITY = Integer.MAX_VALUE;
-
     public static <T> void find(DGraph<T> graph, Vertex<T> s) {
-        Map<Vertex<T>, TableEntity<Vertex<T>>> table = new HashMap<>();
-        for (int i = 0; i < graph.size(); i++) {
-            Vertex<T> v = graph.get(i);
-            TableEntity<Vertex<T>> entity = new TableEntity<>();
-            if (v.equals(s)) {
-                entity.dist = 0;
-                table.put(graph.get(i), entity);
-            } else {
-                table.put(graph.get(i), entity);
-            }
-        }
+        Map<Vertex<T>, TableEntity<Vertex<T>>> table = TableEntity.getTable(graph, s);
         Queue<Vertex<T>> queue = new ArrayDeque<>();
         queue.offer(s);
         while (!queue.isEmpty()) {
@@ -38,7 +26,7 @@ public class NoWeightShortestPath {
                 for (Edge<Vertex<T>> edge : v.getEdgeList()) {
                     if (edge.getDest() != null) {
                         TableEntity<Vertex<T>> destTable = table.get(edge.getDest());
-                        if (destTable.dist == INFINITY) {
+                        if (destTable.dist == TableEntity.INFINITY) {
                             destTable.dist = itemTable.dist + 1;
                             destTable.path = v;
                             queue.offer(edge.getDest());
@@ -47,30 +35,7 @@ public class NoWeightShortestPath {
                 }
             }
         }
-
-        String divider = "        ";
-        System.out.print(String.format("v%sKnown%sDv%sPv", divider, divider, divider));
-        System.out.println();
-        for (Vertex<T> key : table.keySet()) {
-            TableEntity<Vertex<T>> itemTable = table.get(key);
-            System.out.print(key.getValue() +
-                    divider +
-                    itemTable.know +
-                    divider +
-                    itemTable.dist +
-                    divider +
-                    (itemTable.path == null ? "null" : itemTable.path.getValue()));
-            System.out.println();
-        }
-    }
-
-    private static class TableEntity<T> {
-
-        private boolean know = false;
-
-        private int dist = INFINITY;
-
-        private T path = null;
+        TableEntity.printTable(table);
     }
 
     public static void main(String[] args) {
