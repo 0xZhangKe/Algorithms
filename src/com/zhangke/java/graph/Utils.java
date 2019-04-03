@@ -1,5 +1,8 @@
 package com.zhangke.java.graph;
 
+import com.zhangke.java.graph.adt.DGraph;
+import com.zhangke.java.graph.adt.Edge;
+import com.zhangke.java.graph.adt.Vertex;
 import com.zhangke.java.graph.adt.tree.BinaryTreeNode;
 
 /**
@@ -42,5 +45,26 @@ public class Utils {
             space = space.append("    ");
         }
         System.out.println(String.format("%s%s", space.toString(), d.getV()));
+    }
+
+    public static <T> void printGraph(DGraph<T> graph) {
+        for (int i = 0; i < graph.size(); i++) {
+            Vertex<T> vertex = graph.get(i);
+            System.out.print(vertex.getValue().toString());
+            System.out.print(", edge:");
+            if (vertex.getEdgeList() == null) {
+                System.out.print("null");
+            } else {
+                if (vertex.getEdgeList().isEmpty()) {
+                    System.out.print("empty");
+                } else {
+                    for (int j = 0; j < vertex.getEdgeList().size(); j++) {
+                        System.out.print(vertex.getEdgeList().get(j).getDest().getValue());
+                        System.out.print(", ");
+                    }
+                }
+            }
+            System.out.println();
+        }
     }
 }
