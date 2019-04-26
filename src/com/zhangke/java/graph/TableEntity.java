@@ -28,10 +28,8 @@ public class TableEntity<T> {
             TableEntity<Vertex<T>> entity = new TableEntity<>();
             if (v.equals(vertex)) {
                 entity.dist = 0;
-                table.put(graph.get(i), entity);
-            } else {
-                table.put(graph.get(i), entity);
             }
+            table.put(v, entity);
         }
         return table;
     }

@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * 顶点对象
- *
+ * <p>
  * Created by ZhangKe on 2019/3/28.
  */
 public class Vertex<V> {
@@ -31,8 +31,7 @@ public class Vertex<V> {
 
     @Override
     public String toString() {
-        return String.format("v : %s , list len : %s",
-                value, mEdgeList.size());
+        return String.valueOf(value);
     }
 
     /**
@@ -84,11 +83,11 @@ public class Vertex<V> {
         return ret;
     }
 
-    public V getValue(){
+    public V getValue() {
         return value;
     }
 
-    public List<Edge<Vertex<V>>> getEdgeList(){
+    public List<Edge<Vertex<V>>> getEdgeList() {
         return mEdgeList;
     }
 }

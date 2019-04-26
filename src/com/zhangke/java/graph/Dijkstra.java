@@ -47,7 +47,7 @@ public class Dijkstra {
     }
 
     /**
-     * 从为知表中读取一个 dist 最小的定点
+     * 从未知表中读取一个 dist 最小的顶点
      */
     private static <T> Vertex<T> findUnknownMin(Map<Vertex<T>, TableEntity<Vertex<T>>> table) {
         int min = TableEntity.INFINITY;

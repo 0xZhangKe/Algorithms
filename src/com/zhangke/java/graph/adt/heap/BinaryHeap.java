@@ -4,28 +4,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 堆，二叉堆
+ * 堆，二叉堆，优先队列
  */
 public class BinaryHeap<V extends Comparable<V>> implements Heap<V> {
 
-    private final int capacity;
     private List<V> elements;
     private int size = 0;
 
-    public BinaryHeap(int capacity) {
-        this.capacity = capacity;
-        elements = new ArrayList<>(capacity);
+    public BinaryHeap() {
+        elements = new ArrayList<>();
     }
 
     @Override
     public boolean insert(V value) {
-        if (isFull()) return false;
 //        insertVal(size + 1, value);
         insertValNotRecursive(value);
         size++;
         return true;
     }
 
+    /**
+     * 插入数据，递归版
+     */
     private void insertVal(int position, V value) {
         if (position == 0) {
             if (elements.isEmpty()) {
@@ -133,11 +133,11 @@ public class BinaryHeap<V extends Comparable<V>> implements Heap<V> {
 
     @Override
     public boolean isFull() {
-        return size == capacity;
+        return false;
     }
 
     public static void main(String[] args) {
-        BinaryHeap<Integer> heap = new BinaryHeap<Integer>(10);
+        BinaryHeap<Integer> heap = new BinaryHeap<Integer>();
         heap.insert(68);
         heap.insert(65);
         heap.insert(26);

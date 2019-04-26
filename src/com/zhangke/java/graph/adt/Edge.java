@@ -2,14 +2,21 @@ package com.zhangke.java.graph.adt;
 
 /**
  * 一条边，可以根据需要继承此类
+ *
  * @param <V>
  */
-public class Edge<V> {
-    /**起点*/
+public class Edge<V> implements Comparable<Edge<V>> {
+    /**
+     * 起点
+     */
     private V src;
-    /**终点*/
+    /**
+     * 终点
+     */
     private V dest;
-    /**权值*/
+    /**
+     * 权值
+     */
     private int weight;
 
     /**
@@ -47,6 +54,11 @@ public class Edge<V> {
      */
     public int getWeight() {
         return this.weight;
+    }
+
+    @Override
+    public int compareTo(Edge<V> o) {
+        return weight - o.getWeight();
     }
 
     @Override

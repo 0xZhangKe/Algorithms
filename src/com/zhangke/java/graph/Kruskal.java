@@ -4,67 +4,75 @@ import com.zhangke.java.graph.adt.DGraph;
 import com.zhangke.java.graph.adt.Edge;
 import com.zhangke.java.graph.adt.ListDGraph;
 import com.zhangke.java.graph.adt.Vertex;
+import com.zhangke.java.graph.adt.heap.BinaryHeap;
 
+import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
+import static com.zhangke.java.graph.adt.DGraph.ITERATOR_TYPE_BFS;
+
 /**
- * 最小生成树-prim 算法
+ * 最小生成树- Kruskal 算法
  * <p>
- * Created by ZhangKe on 2019/4/2.
+ * Created by ZhangKe on 2019/4/23.
  */
-public class Prim {
+public class Kruskal {
 
     /**
-     * 类似 {@link Dijkstra} 算法。
-     * 每次循环都选取 Table 中值最小的边。
+     * 1.新建图G，G中拥有原图中相同的节点，但没有边
+     * 2.将原图中所有的边按权值从小到大排序
+     * 3.从权值最小的边开始，如果这条边连接的两个节点于图G中不在同一个连通分量中，则添加这条边到图G中
+     * 4.重复3，直至图G中所有的节点都在同一个连通分量中
      */
-    private static <T> void find(DGraph<T> graph, Vertex<T> vertex) {
-        Map<Vertex<T>, TableEntity<Vertex<T>>> table = TableEntity.getTable(graph, vertex);
-        DGraph<T> primGraph = new ListDGraph<>();
-        for (int i = 0; i < graph.size(); i++) {
-            Vertex<T> minVertex = findUnknownMin(table);
-            if (minVertex == null) {
-                break;
-            }
-            TableEntity<Vertex<T>> minTable = table.get(minVertex);
-            minTable.know = true;
-            primGraph.add(new Vertex<>(minVertex.getValue()));
-            if (minTable.path != null) {
-                T thisValue = minVertex.getValue();
-                T pathValue = minTable.path.getValue();
-                primGraph.add(new Edge<>(new Vertex<>(thisValue), new Vertex<>(pathValue)));
-                primGraph.add(new Edge<>(new Vertex<>(pathValue), new Vertex<>(thisValue)));
-            }
-            if (minVertex.getEdgeList() != null) {
-                for (Edge<Vertex<T>> edge : minVertex.getEdgeList()) {
-                    if (edge.getDest() != null) {
-                        TableEntity<Vertex<T>> edgeTable = table.get(edge.getDest());
-                        if (!edgeTable.know && edge.getWeight() < edgeTable.dist) {
-                            edgeTable.dist = edge.getWeight();
-                            edgeTable.path = minVertex;
-                        }
-                    }
+    private static <T> DGraph<T> find(DGraph<T> graph, Vertex<T> vertex) {
+        DGraph<T> newGraph = getNoEdgeGraph(graph);
+        BinaryHeap<Edge<Vertex<T>>> priorityQueue = makePriorityQueue(graph);
+        while (!priorityQueue.isEmpty()) {
+            Edge<Vertex<T>> edge = priorityQueue.deleteMin();
+            if (edge.getDest() != null
+                    && edge.getSource() != null) {
+                if (!connected(newGraph, edge.getDest(), edge.getSource())) {
+                    newGraph.add(new Edge<>(edge.getDest(), edge.getSource()));
+                    newGraph.add(new Edge<>(edge.getSource(), edge.getDest()));
                 }
             }
         }
-        System.out.println();
-        Utils.printGraph(primGraph);
+        return newGraph;
     }
 
-    /**
-     * 从未知表中读取一个 dist 最小的顶点
-     */
-    private static <T> Vertex<T> findUnknownMin(Map<Vertex<T>, TableEntity<Vertex<T>>> table) {
-        int min = TableEntity.INFINITY;
-        Vertex<T> vertex = null;
-        for (Vertex<T> key : table.keySet()) {
-            TableEntity<Vertex<T>> item = table.get(key);
-            if (!item.know && min >= item.dist) {
-                min = item.dist;
-                vertex = key;
+    private static <T> DGraph<T> getNoEdgeGraph(DGraph<T> graph) {
+        DGraph<T> newGraph = new ListDGraph<>();
+        Iterator<T> iterator = graph.iterator(ITERATOR_TYPE_BFS, graph.get(0).getValue());
+        while (iterator.hasNext()) {
+            newGraph.add(new Vertex<>(iterator.next()));
+        }
+        return newGraph;
+    }
+
+    private static <T> BinaryHeap<Edge<Vertex<T>>> makePriorityQueue(DGraph<T> graph) {
+        BinaryHeap<Edge<Vertex<T>>> priorityQueue = new BinaryHeap<>();
+        for (int i = 0; i < graph.size(); i++) {
+            Vertex<T> ve = graph.get(i);
+            List<Edge<Vertex<T>>> edgeList = ve.getEdgeList();
+            if (edgeList != null
+                    && !edgeList.isEmpty()) {
+                for (Edge<Vertex<T>> edge : edgeList) {
+                    priorityQueue.insert(edge);
+                }
             }
         }
-        return vertex;
+        return priorityQueue;
+    }
+
+    private static <T> boolean connected(DGraph<T> graph, Vertex<T> ve1, Vertex<T> ve2) {
+        Iterator<T> iterator = graph.iterator(ITERATOR_TYPE_BFS, ve1.getValue());
+        while (iterator.hasNext()) {
+            if (iterator.next().equals(ve2.getValue())) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public static void main(String[] args) {
@@ -159,6 +167,6 @@ public class Prim {
         graph.add(v6v7);
         graph.add(v7v5);
 
-        find(graph, v1);
+        DGraph<String> dGraph = find(graph, v1);
     }
 }
