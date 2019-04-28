@@ -7,8 +7,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 用于寻找最短路径的辅助表
- *
+ * 用于寻找最短路径的辅助配置表
+ * <p>
  * Created by ZhangKe on 2019/3/31.
  */
 public class TableEntity<T> {
@@ -21,7 +21,7 @@ public class TableEntity<T> {
 
     T path = null;
 
-    static <T> Map<Vertex<T>, TableEntity<Vertex<T>>> getTable(DGraph<T> graph, Vertex<T> vertex){
+    static <T> Map<Vertex<T>, TableEntity<Vertex<T>>> getTable(DGraph<T> graph, Vertex<T> vertex) {
         Map<Vertex<T>, TableEntity<Vertex<T>>> table = new HashMap<>();
         for (int i = 0; i < graph.size(); i++) {
             Vertex<T> v = graph.get(i);
@@ -34,7 +34,7 @@ public class TableEntity<T> {
         return table;
     }
 
-    static <T> void printTable(Map<Vertex<T>, TableEntity<Vertex<T>>> table){
+    static <T> void printTable(Map<Vertex<T>, TableEntity<Vertex<T>>> table) {
         String divider = "        ";
         System.out.print(String.format("v%sKnown%sDv%sPv", divider, divider, divider));
         System.out.println();

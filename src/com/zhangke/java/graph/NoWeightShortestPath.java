@@ -15,6 +15,7 @@ import java.util.*;
 public class NoWeightShortestPath {
 
     public static <T> void find(DGraph<T> graph, Vertex<T> s) {
+        //创建初始配置表
         Map<Vertex<T>, TableEntity<Vertex<T>>> table = TableEntity.getTable(graph, s);
         Queue<Vertex<T>> queue = new ArrayDeque<>();
         queue.offer(s);

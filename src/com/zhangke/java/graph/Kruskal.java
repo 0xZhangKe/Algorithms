@@ -41,6 +41,9 @@ public class Kruskal {
         return newGraph;
     }
 
+    /**
+     * 通过原图的顶点重新创建一个图，但不保留其边
+     */
     private static <T> DGraph<T> getNoEdgeGraph(DGraph<T> graph) {
         DGraph<T> newGraph = new ListDGraph<>();
         Iterator<T> iterator = graph.iterator(ITERATOR_TYPE_BFS, graph.get(0).getValue());
@@ -50,6 +53,9 @@ public class Kruskal {
         return newGraph;
     }
 
+    /**
+     * 根据边的权值创建一个优先队列
+     */
     private static <T> BinaryHeap<Edge<Vertex<T>>> makePriorityQueue(DGraph<T> graph) {
         BinaryHeap<Edge<Vertex<T>>> priorityQueue = new BinaryHeap<>();
         for (int i = 0; i < graph.size(); i++) {
@@ -65,6 +71,9 @@ public class Kruskal {
         return priorityQueue;
     }
 
+    /**
+     * 当前图加上这两个顶点后是不是连通的
+     */
     private static <T> boolean connected(DGraph<T> graph, Vertex<T> ve1, Vertex<T> ve2) {
         Iterator<T> iterator = graph.iterator(ITERATOR_TYPE_BFS, ve1.getValue());
         while (iterator.hasNext()) {
