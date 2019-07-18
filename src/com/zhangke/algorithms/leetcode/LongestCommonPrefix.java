@@ -12,28 +12,33 @@ public class LongestCommonPrefix {
         if (strs.length == 1) {
             return strs[0];
         }
-        String prefix = "";
-        int length = strs[0].length();
-        String tmpPrefix = "";
-        boolean breaked = false;
-        for (int i = 1; i <= length; i++) {
-            prefix = tmpPrefix;
-            tmpPrefix = strs[0].substring(0, i);
-            for (int j = 1; j < strs.length; j++) {
-                if (strs[j].length() < i) {
-                    breaked = true;
+        boolean end = false;
+        int position = 0;
+        char thisLineChar;
+        char tmp;
+        int i;
+        while (!end) {
+            i = 0;
+            thisLineChar = 0;
+            while (i < strs.length) {
+                if (position >= strs[i].length()) {
+                    position--;
+                    end = true;
                     break;
                 }
-                if (!tmpPrefix.equals(strs[j].substring(0, i))) {
-                    breaked = true;
+                tmp = strs[i].charAt(position);
+                if (thisLineChar == 0 || thisLineChar == tmp) {
+                    thisLineChar = tmp;
+                } else {
+                    position--;
+                    end = true;
                     break;
                 }
+                i++;
             }
+            position++;
         }
-        if (breaked) {
-            prefix = tmpPrefix;
-        }
-        return prefix;
+        return strs[0].substring(0, position);
     }
 
     public static void main(String[] args) {
