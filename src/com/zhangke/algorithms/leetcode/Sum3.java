@@ -8,39 +8,11 @@ import java.util.*;
  */
 public class Sum3 {
 
-    private static class NumData {
-
-        private int first;
-        private int second;
-        private int result = -1;
-
-        private NumData(int first, int second) {
-            this.first = first;
-            this.second = second;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o instanceof NumData) {
-                NumData numData = (NumData) o;
-                return first == numData.first && second == numData.second && result == numData.result;
-            }
-            return false;
-        }
-
-        @Override
-        public int hashCode() {
-            return 32 + first * 13 + second + result;
-        }
-    }
-
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         if (nums.length < 3) {
             return list;
         }
-        long start = System.currentTimeMillis();
         Arrays.sort(nums);
         int L;
         int R;
@@ -64,7 +36,6 @@ public class Sum3 {
                 else R--;
             }
         }
-        System.out.println("for spend: " + (System.currentTimeMillis() - start) + " ms");
         return list;
     }
 
