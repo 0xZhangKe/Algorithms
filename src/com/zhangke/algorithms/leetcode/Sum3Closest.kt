@@ -22,6 +22,7 @@ class Solution {
         var sum: Int
         var divider = 0
         val len = nums.size
+        var result = 0
         val startSum = Math.abs(target - nums[0] - nums[1] - nums[2])
         val endSum = Math.abs(target - nums[len - 1] - nums[len - 2] - nums[len - 3])
         var min = if (startSum > endSum) startSum else endSum
@@ -33,11 +34,14 @@ class Solution {
             while (L < R) {
                 sum = nums[i] + nums[L] + nums[R]
                 divider = Math.abs(sum - target)
-                min = if (min > divider) divider else min
+                if (min > divider) {
+                    min = divider
+                    result = sum
+                }
                 while (L < R && nums[L] == nums[L + 1]) L++
                 while (L < R && nums[R] == nums[R - 1]) R--
                 if (sum == target) {
-                    return 0
+                    return sum
                 } else if (sum < target) {
                     L++
                 } else {
@@ -45,7 +49,7 @@ class Solution {
                 }
             }
         }
-        return min
+        return result
     }
 }
 
