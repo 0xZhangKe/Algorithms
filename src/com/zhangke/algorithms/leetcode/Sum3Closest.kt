@@ -23,12 +23,9 @@ class Solution {
         var divider = 0
         val len = nums.size
         var result = 0
-        val startSum = Math.abs(target - nums[0] - nums[1] - nums[2])
-        val endSum = Math.abs(target - nums[len - 1] - nums[len - 2] - nums[len - 3])
-        var min = if (startSum > endSum) startSum else endSum
+        var min = Integer.MAX_VALUE
         for (i in 0 until len) {
-            if (nums[i] > min) break
-            if (i > 0 && nums[i] == nums[i - 1]) continue
+//            if (i > 0 && nums[i] == nums[i - 1]) continue
             L = i + 1
             R = len - 1
             while (L < R) {
@@ -38,8 +35,8 @@ class Solution {
                     min = divider
                     result = sum
                 }
-                while (L < R && nums[L] == nums[L + 1]) L++
-                while (L < R && nums[R] == nums[R - 1]) R--
+//                while (L < R && nums[L] == nums[L + 1]) L++
+//                while (L < R && nums[R] == nums[R - 1]) R--
                 if (sum == target) {
                     return sum
                 } else if (sum < target) {
@@ -54,10 +51,11 @@ class Solution {
 }
 
 fun main(args: Array<String>) {
-    val nums = IntArray(4)
+    val nums = IntArray(5)
     nums[0] = -1
-    nums[1] = 2
+    nums[1] = 0
     nums[2] = 1
-    nums[3] = -4
-    println(Solution().threeSumClosest(nums, 1))
+    nums[3] = 1
+    nums[4] = 55
+    println(Solution().threeSumClosest(nums, 3))
 }
