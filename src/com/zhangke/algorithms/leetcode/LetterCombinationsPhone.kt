@@ -91,19 +91,21 @@ class LetterCombinationsPhone {
                  secondPosition: Int, list: ArrayList<String>,
                  stack: Stack<Char>) {
             if (array.size <= firstPositon || array[firstPositon]!!.size <= secondPosition) return
+            println("first:$firstPositon, second:$secondPosition")
             stack.push(array[firstPositon]!![secondPosition])
-            if (array.size <= firstPositon + 1 || array[firstPositon]!!.size <= secondPosition + 1) {
+            if (array.size <= firstPositon + 1) {
                 //换行
                 list.add(StringBuilder().apply {
                     val li = ArrayList<Char>()
-                    while (!stack.isEmpty()) {
-                        li.add(0, stack.pop())
+                    val iterator = stack.iterator()
+                    while (iterator.hasNext()) {
+                        li.add(iterator.next())
                     }
                     for (c in li) {
                         append(c)
                     }
                 }.toString())
-            } else {
+            } else if (array[firstPositon]!!.size > secondPosition + 1) {
                 for (i in secondPosition..4) {
                     dfss(array, firstPositon + 1, i, list, stack)
                 }
