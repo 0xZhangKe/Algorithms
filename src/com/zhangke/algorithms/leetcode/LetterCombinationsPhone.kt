@@ -90,23 +90,22 @@ class LetterCombinationsPhone {
         fun dfss(array: Array<CharArray?>, firstPositon: Int,
                  secondPosition: Int, list: ArrayList<String>,
                  stack: Stack<Char>) {
-            if (array.size <= firstPositon && array[firstPositon]!!.size <= secondPosition) return
+            if (array.size <= firstPositon || array[firstPositon]!!.size <= secondPosition) return
             stack.push(array[firstPositon]!![secondPosition])
-            if (array.size > firstPositon + 1) {
-                if (array[firstPositon]!!.size <= secondPosition + 1) {
-                    //换行
-                    list.add(StringBuilder().apply {
-                        val li = ArrayList<Char>()
-                        while (!stack.isEmpty()) {
-                            li.add(0, stack.pop())
-                        }
-                        for (c in li) {
-                            append(c)
-                        }
-                    }.toString())
-                    dfss(array, firstPositon, secondPosition + 1, list, stack)
-                } else {
-                    dfss(array, firstPositon + 1, secondPosition, list, stack)
+            if (array.size <= firstPositon + 1 || array[firstPositon]!!.size <= secondPosition + 1) {
+                //换行
+                list.add(StringBuilder().apply {
+                    val li = ArrayList<Char>()
+                    while (!stack.isEmpty()) {
+                        li.add(0, stack.pop())
+                    }
+                    for (c in li) {
+                        append(c)
+                    }
+                }.toString())
+            } else {
+                for (i in secondPosition..4) {
+                    dfss(array, firstPositon + 1, i, list, stack)
                 }
             }
             try {
