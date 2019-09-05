@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="更新电话号码的字母组合">
+    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成电话号码的字母组合">
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,38 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestCommonPrefix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="125">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3Closest.kt">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="126" column="77" selection-start-line="126" selection-start-column="77" selection-end-line="126" selection-end-column="77" />
+            <state relative-caret-position="330">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -76,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/heap/LeftHeap.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/heap/Heap.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/java/sort/MainTest.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/java/Util.java" />
@@ -127,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3Closest.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/L.etterCombinationsPhone.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.kt" />
       </list>
     </option>
   </component>
@@ -531,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567601743090</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="完成电话号码的字母组合">
+      <created>1567648612492</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1567648612492</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -541,7 +530,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.21028744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.21028744" />
       <window_info id="Structure" order="1" sideWeight="0.5083426" side_tool="true" weight="0.20202559" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -550,7 +539,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.3409836" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.3409836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40163934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -604,7 +593,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加各种排序算法" />
     <MESSAGE value="添加文件操作工具类" />
     <MESSAGE value="修改实现类" />
     <MESSAGE value="完成拓扑算法" />
@@ -629,16 +617,10 @@
     <MESSAGE value="完善最接近的三数之和" />
     <MESSAGE value="添加电话号码的字母组合" />
     <MESSAGE value="更新电话号码的字母组合" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新电话号码的字母组合" />
+    <MESSAGE value="完成电话号码的字母组合" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成电话号码的字母组合" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/graph/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/graph/TopologicalSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -951,20 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3Closest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/text/StringBuilder.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -981,8 +949,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="126" column="77" selection-start-line="126" selection-start-column="77" selection-end-line="126" selection-end-column="77" />
+        <state relative-caret-position="359">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3Closest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
