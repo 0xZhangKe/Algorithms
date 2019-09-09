@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="添加 四数之和">
-      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveNthNodeFromEndOfList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.kt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,18 +21,31 @@
         <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-374">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveNthNodeFromEndOfList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-242">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="66">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zhangke/java/sort/MainTest.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/java/Util.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/java/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/java/sort/SortTest.java" />
@@ -113,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveNthNodeFromEndOfList.java" />
       </list>
     </option>
   </component>
@@ -134,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -164,7 +177,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,13 +209,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.zhangke.algorithms.leetcode.LetterCombinationsPhoneKt">
-    <configuration name="Foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.Foo" />
+  <component name="RunManager" selected="Application.RemoveNthNodeFromEndOfList">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.Main" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
+          <option name="PATTERN" value="com.zhangke.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.Main" />
+    <configuration name="RemoveNthNodeFromEndOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.RemoveNthNodeFromEndOfList" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.*" />
+          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,19 +276,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Foo" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Sum3" />
       <item itemvalue="Kotlin.com.zhangke.algorithms.leetcode.Sum3ClosestKt" />
       <item itemvalue="Kotlin.com.zhangke.algorithms.leetcode.LetterCombinationsPhoneKt" />
+      <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
         <item itemvalue="Kotlin.com.zhangke.algorithms.leetcode.LetterCombinationsPhoneKt" />
         <item itemvalue="Kotlin.com.zhangke.algorithms.leetcode.Sum3ClosestKt" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Sum3" />
-        <item itemvalue="Application.Foo" />
       </list>
     </recent_temporary>
   </component>
@@ -531,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567649015612</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="添加 四数之和">
+      <created>1567767492397</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1567767492397</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -540,7 +559,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.21331316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.21633889" />
       <window_info id="Structure" order="1" sideWeight="0.5083426" side_tool="true" weight="0.20202559" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -631,13 +650,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加 四数之和" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/graph/WeightNegative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/graph/Prim.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -964,26 +976,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.kt" />
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
+        <state relative-caret-position="-374">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveNthNodeFromEndOfList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
           </folding>
         </state>
       </provider>
