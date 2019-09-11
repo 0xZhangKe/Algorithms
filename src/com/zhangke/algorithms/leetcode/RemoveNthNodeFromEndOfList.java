@@ -1,5 +1,9 @@
 package com.zhangke.algorithms.leetcode;
 
+import com.zhangke.algorithms.leetcode.Common.*;
+
+import static com.zhangke.algorithms.leetcode.Common.buildNode;
+
 /**
  * 19. 删除链表的倒数第N个节点:
  * https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
@@ -23,7 +27,7 @@ public class RemoveNthNodeFromEndOfList {
         }
     }
 
-    private void delete(ListNode head, int position, int target) {
+    private void delete(Common.ListNode head, int position, int target) {
         if (position == target) {
             if (head.next != null) {
                 head.next = head.next.next;
@@ -33,38 +37,12 @@ public class RemoveNthNodeFromEndOfList {
         }
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
-    private void buildNode(ListNode node, int value, int end) {
-        if (value >= end) {
-            return;
-        }
-        node.val = value;
-        node.next = new ListNode(value + 1);
-        buildNode(node.next, value + 1, end);
-    }
-
     public static void main(String[] args) {
         RemoveNthNodeFromEndOfList opt = new RemoveNthNodeFromEndOfList();
         ListNode node = new ListNode(1);
-        opt.buildNode(node, 1, 5);
+        buildNode(node, 1, 5);
 
         ListNode result = opt.removeNthFromEnd(node, 2);
 
-        StringBuilder builder = new StringBuilder();
-        ListNode curNode = result;
-        while (curNode != null) {
-            builder.append(curNode.val);
-            builder.append("->");
-            curNode = curNode.next;
-        }
-        System.out.println(builder.substring(0, builder.length() - 2));
     }
 }
