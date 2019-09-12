@@ -1,8 +1,7 @@
 package com.zhangke.algorithms.leetcode;
 
-import com.zhangke.algorithms.leetcode.Common.*;
-
-import static com.zhangke.algorithms.leetcode.Common.buildNode;
+import static com.zhangke.algorithms.leetcode.Util.buildListNode;
+import static com.zhangke.algorithms.leetcode.Util.printNode;
 
 /**
  * 19. 删除链表的倒数第N个节点:
@@ -16,33 +15,32 @@ public class RemoveNthNodeFromEndOfList {
         ListNode curNode = head;
         while (curNode != null) {
             size++;
-            curNode = curNode.next;
+            curNode = curNode.getNext();
         }
         int target = size - n - 1;
         if (target < 0) {
-            return head.next;
+            return head.getNext();
         } else {
             delete(head, 0, target);
             return head;
         }
     }
 
-    private void delete(Common.ListNode head, int position, int target) {
+    private void delete(ListNode head, int position, int target) {
         if (position == target) {
-            if (head.next != null) {
-                head.next = head.next.next;
+            if (head.getNext() != null) {
+                head.setNext(head.getNext().getNext());
             }
         } else {
-            delete(head.next, position + 1, target);
+            delete(head.getNext(), position + 1, target);
         }
     }
 
     public static void main(String[] args) {
         RemoveNthNodeFromEndOfList opt = new RemoveNthNodeFromEndOfList();
         ListNode node = new ListNode(1);
-        buildNode(node, 1, 5);
-
+        buildListNode(node, 1, 5);
         ListNode result = opt.removeNthFromEnd(node, 2);
-
+        printNode(result);
     }
 }

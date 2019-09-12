@@ -1,8 +1,6 @@
 package com.zhangke.algorithms.leetcode;
 
-import com.zhangke.algorithms.leetcode.Common.*;
-
-import static com.zhangke.algorithms.leetcode.Common.printNode;
+import static com.zhangke.algorithms.leetcode.Util.printNode;
 
 /**
  * 21. 合并两个有序链表:
@@ -19,36 +17,36 @@ public class MergeTwoSortedLists {
         while (l1 != null || l2 != null) {
             if (l1 == null) {
                 tmp = l2;
-                l2 = l2.next;
+                l2 = l2.getNext();
                 b = false;
             } else if (l2 == null) {
                 tmp = l1;
-                l1 = l1.next;
+                l1 = l1.getNext();
                 b = false;
-            } else if (l1.val > l2.val) {
+            } else if (l1.getValue() > l2.getValue()) {
                 tmp = l2;
-                l2 = l2.next;
+                l2 = l2.getNext();
                 b = false;
-            } else if (l1.val == l2.val) {
+            } else if (l1.getValue() == l2.getValue()) {
                 tmp = l1;
-                l1 = l1.next;
-                l2 = l2.next;
+                l1 = l1.getNext();
+                l2 = l2.getNext();
                 b = true;
-            } else{
+            } else {
                 tmp = l1;
-                l1 = l1.next;
+                l1 = l1.getNext();
                 b = false;
             }
             if (resultNode == null) {
-                resultNode = new ListNode(tmp.val);
+                resultNode = new ListNode(tmp.getValue());
                 curNode = resultNode;
             } else {
-                curNode.next = new ListNode(tmp.val);
-                curNode = curNode.next;
+                curNode.setNext(new ListNode(tmp.getValue()));
+                curNode = curNode.getNext();
             }
-            if(b){
-                curNode.next = new ListNode(tmp.val);
-                curNode = curNode.next;
+            if (b) {
+                curNode.setNext(new ListNode(tmp.getValue()));
+                curNode = curNode.getNext();
             }
         }
         return resultNode;
@@ -57,15 +55,15 @@ public class MergeTwoSortedLists {
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
         ListNode curNode = node1;
-        curNode.next = new ListNode(2);
-        curNode = curNode.next;
-        curNode.next = new ListNode(4);
+        curNode.setNext(new ListNode(2));
+        curNode = curNode.getNext();
+        curNode.setNext(new ListNode(4));
 
         ListNode node2 = new ListNode(1);
         curNode = node2;
-        curNode.next = new ListNode(3);
-        curNode = curNode.next;
-        curNode.next = new ListNode(4);
+        curNode.setNext(new ListNode(3));
+        curNode = curNode.getNext();
+        curNode.setNext(new ListNode(4));
 
         MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
         printNode(mergeTwoSortedLists.mergeTwoLists(node1, node2));
