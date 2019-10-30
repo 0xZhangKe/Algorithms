@@ -6,40 +6,32 @@ import java.util.List;
 
 /**
  * 22. 括号生成:
- * https://leetcode-cn.com/problems/generate-parentheses/
+ * https://leetcode-cn.com/problems/generate-parentheses/;
+ * 使用回溯法解决这个问题.
  * Created by ZhangKe on 2019/9/12.
  */
 public class GenerateParentheses {
 
     public List<String> generateParenthesis(int n) {
-        LinkedList<LinkedList<String>> result = new LinkedList<LinkedList<String>>();
-        if (n == 0)
-            return result.get(0);
-        LinkedList<String> list0 = new LinkedList<String>();
-        list0.add("");
-        result.add(list0);
-        LinkedList<String> list1 = new LinkedList<String>();
-        list1.add("()");
-        result.add(list1);
-        for (int i = 2; i <= n; i++) {
-            LinkedList<String> temp = new LinkedList<String>();
-            for (int j = 0; j < i; j++) {
-                List<String> str1 = result.get(j);
-                List<String> str2 = result.get(i - 1 - j);
-                for (String s1 : str1) {
-                    for (String s2 : str2) {
-                        String el = "(" + s1 + ")" + s2;
-                        temp.add(el);
-                    }
-                }
+        List<String> list = new ArrayList<>();
+        backtrack(list, "", 0, 0, n);
+        return list;
+    }
 
-            }
-            result.add(temp);
+    private void backtrack(List<String> list, String cur, int open, int close, int max) {
+        if (cur.length() == max * 2) {
+            list.add(cur);
+            return;
         }
-        return result.get(n);
+        if (open < max) {
+            backtrack(list, cur + "(", open + 1, close, max);
+        }
+        if (close < open) {
+            backtrack(list, cur + ")", open, close + 1, max);
+        }
     }
 
     public static void main(String[] args) {
-        Util.printListElementWithLine(new GenerateParentheses().generateParenthesis(3));
+        Util.printListElementWithLine(new GenerateParentheses().generateParenthesis(5));
     }
 }
