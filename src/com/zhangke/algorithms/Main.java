@@ -1,12 +1,17 @@
 package com.zhangke.algorithms;
 
+import java.util.Locale;
+
 public class Main {
 
     public static void main(String[] args) {
-        int[] numArray1 = {1, 10, 20};
-        int[] numArray2 = {2, 8, 9};
-//        System.out.println(findMedianSortedArrays(numArray1, numArray2));
-        Util.printArray(merge(numArray1, numArray2));
+//        int[] numArray1 = {1, 10, 20};
+//        int[] numArray2 = {2, 8, 9};
+////        System.out.println(findMedianSortedArrays(numArray1, numArray2));
+//        Util.printArray(merge(numArray1, numArray2));
+
+        float a = 2983.19F;
+        System.out.println(String.format(Locale.getDefault(),"%.2f", a));
     }
 
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
