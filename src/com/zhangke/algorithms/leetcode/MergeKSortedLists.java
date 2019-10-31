@@ -15,15 +15,18 @@ public class MergeKSortedLists {
         boolean canLoop = true;
         int haveCount;
         int min;
+        int minCount;
         while (canLoop) {
             haveCount = 0;
             min = Integer.MAX_VALUE;
+            minCount = 0;
             for (int i = 0; i < lists.length; i++) {
                 ListNode itemNode = lists[i];
                 if (itemNode != null) {
                     haveCount++;
                     if (itemNode.val <= min) {
                         min = itemNode.val;
+                        minCount++;
                     }
                 }
             }
@@ -31,16 +34,14 @@ public class MergeKSortedLists {
                 ListNode itemNode = lists[i];
                 if (itemNode != null && itemNode.val <= min) {
                     lists[i] = itemNode.next;
-                }
-            }
-            if (min != Integer.MAX_VALUE) {
-                if (node == null) {
-                    head = new ListNode(min);
-                    node = head;
-                } else {
-                    ListNode next = new ListNode(min);
-                    node.next = next;
-                    node = next;
+                    if (node == null) {
+                        head = new ListNode(min);
+                        node = head;
+                    } else {
+                        ListNode next = new ListNode(min);
+                        node.next = next;
+                        node = next;
+                    }
                 }
             }
             canLoop = haveCount > 0;
