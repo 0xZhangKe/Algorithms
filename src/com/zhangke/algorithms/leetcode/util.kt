@@ -31,6 +31,19 @@ fun printNode(node: ListNode) {
     })
 }
 
+fun printNode(node: com.zhangke.algorithms.data.ListNode) {
+    println(StringBuilder().apply {
+        var curNode:com.zhangke.algorithms.data.ListNode?  = node
+        while (curNode != null) {
+            append(curNode.`val`)
+            curNode = curNode.next
+            if (curNode != null) {
+                append("->")
+            }
+        }
+    })
+}
+
 /**
  * 打印 List，
  * 每个元素都占用一行

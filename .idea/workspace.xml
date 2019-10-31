@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="添加 括号生成">
+    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成 括号生成">
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/data/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MergeKSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="198">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,24 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MergeKSortedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidParentheses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -55,8 +44,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="155">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -84,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zhangke/java/sort/ShellSort.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/java/sort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/java/sort/BucketSort.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/java/Main.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/VE.java" />
@@ -130,11 +126,13 @@
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Common.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MergeTwoSortedLists.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveNthNodeFromEndOfList.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Util.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParenthesis.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/data/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Util.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MergeKSortedLists.java" />
       </list>
     </option>
   </component>
@@ -151,8 +149,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="91" />
+    <option name="x" value="90" />
+    <option name="y" value="-23" />
     <option name="width" value="1026" />
     <option name="height" value="546" />
   </component>
@@ -162,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -187,12 +184,13 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenerateParentheses">
+  <component name="RunManager" selected="Application.MergeKSortedLists">
     <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.GenerateParentheses" />
       <module name="Algorithms" />
@@ -256,8 +254,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.MergeTwoSortedLists" />
+    <configuration name="MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.MergeKSortedLists" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -298,17 +296,17 @@
     <list>
       <item itemvalue="Application.GenerateParentheses" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MergeTwoSortedLists" />
       <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
       <item itemvalue="Application.ValidParentheses" />
+      <item itemvalue="Application.MergeKSortedLists" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeKSortedLists" />
         <item itemvalue="Application.GenerateParentheses" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
-        <item itemvalue="Application.MergeTwoSortedLists" />
       </list>
     </recent_temporary>
   </component>
@@ -612,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568970042974</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="完成 括号生成">
+      <created>1572402226786</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1572402226786</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -622,7 +627,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.2549168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.25869894" />
       <window_info id="Structure" order="1" sideWeight="0.5083426" side_tool="true" weight="0.20202559" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -631,15 +636,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.33959043" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40163934" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.33788395" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4010239" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32996634" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32764506" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32935154" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -738,7 +743,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加最短路径辅助标记表" />
     <MESSAGE value="更新注释" />
     <MESSAGE value="具有负值边的最短路径" />
     <MESSAGE value="完成 Prim 算法" />
@@ -763,15 +767,14 @@
     <MESSAGE value="完成 合并两个有序链表" />
     <MESSAGE value="更新工具库" />
     <MESSAGE value="添加 括号生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 括号生成" />
+    <MESSAGE value="完成 括号生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 括号生成" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Arrays.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Character.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -1051,13 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MergeTwoSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -1092,34 +1088,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParenthesis.java" />
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="489">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#1065#1066#0" expanded="true" />
@@ -1128,10 +1110,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/data/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="155">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MergeKSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
