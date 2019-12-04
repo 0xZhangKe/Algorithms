@@ -12,49 +12,34 @@ public class SubstringConcatenationAllWords {
     public List<Integer> findSubstring(String s, String[] words) {
         if (s.isEmpty()) return Collections.emptyList();
         if (words.length <= 0) return Collections.emptyList();
-        List<String> list = new ArrayList<>();
-        getAllStrings(words, new ArrayList<>(), new ArrayList<>(), list);
         List<Integer> result = new ArrayList<>();
-        int position = 0;
-        int sLen = s.length();
-        int step = words.length * words[0].length();
-        String tmp;
-        while (position + step <= sLen) {
-            tmp = s.substring(position, position + step);
-            if(list.contains(tmp)){
-                result.add(position);
+        Map<String, Integer> wordsMap = new HashMap<>();
+        Integer tmpInt;
+        String tmpStr;
+        for (String item : words) {
+            tmpInt = wordsMap.get(item);
+            wordsMap.put(item, tmpInt == null ? 0 : 1 + tmpInt);
+        }
+        int step = words[0].length();
+        int totalLen = words.length * step;
+        for (int i = 0; i < s.length() - totalLen + 1; i++) {
+            Map<String, Integer> tmp = new HashMap<>();
+            for (int j = i; j < i + totalLen; j = j + step) {
+                tmpStr = s.substring(j, j + step);
+                tmpInt = tmp.get(tmpStr);
+                tmp.put(tmpStr, tmpInt == null ? 0 : 1 + tmpInt);
             }
-            position++;
+            if (tmp.equals(wordsMap)) {
+                result.add(i);
+            }
         }
         return result;
     }
 
-    private void getAllStrings(String[] words, List<String> stringList, List<Integer> positionList, List<String> list) {
-        if (stringList.size() == words.length) {
-            StringBuilder builder = new StringBuilder();
-            for (int i = 0; i < stringList.size(); i++) {
-                builder.append(stringList.get(i));
-            }
-            list.add(builder.toString());
-        } else {
-            for (int i = 0; i < words.length; i++) {
-                if (!positionList.contains(i)) {
-                    positionList.add(i);
-                    stringList.add(words[i]);
-                    getAllStrings(words, stringList, positionList, list);
-                    positionList.remove(Integer.valueOf(i));
-                    if (!stringList.isEmpty()) {
-                        stringList.remove(stringList.size() - 1);
-                    }
-                }
-            }
-        }
-    }
-
     public static void main(String[] args) {
         SubstringConcatenationAllWords sub = new SubstringConcatenationAllWords();
-        String s = "wordgoodgoodgoodbestword";
-        String[] words = {"word","good","best","good"};
+        String s = "pjzkrkevzztxductzzxmxsvwjkxpvukmfjywwetvfnujhweiybwvvsrfequzkhossmootkmyxgjgfordrpapjuunmqnxxdrqrfgkrsjqbszgiqlcfnrpjlcwdrvbumtotzylshdvccdmsqoadfrpsvnwpizlwszrtyclhgilklydbmfhuywotjmktnwrfvizvnmfvvqfiokkdprznnnjycttprkxpuykhmpchiksyucbmtabiqkisgbhxngmhezrrqvayfsxauampdpxtafniiwfvdufhtwajrbkxtjzqjnfocdhekumttuqwovfjrgulhekcpjszyynadxhnttgmnxkduqmmyhzfnjhducesctufqbumxbamalqudeibljgbspeotkgvddcwgxidaiqcvgwykhbysjzlzfbupkqunuqtraxrlptivshhbihtsigtpipguhbhctcvubnhqipncyxfjebdnjyetnlnvmuxhzsdahkrscewabejifmxombiamxvauuitoltyymsarqcuuoezcbqpdaprxmsrickwpgwpsoplhugbikbkotzrtqkscekkgwjycfnvwfgdzogjzjvpcvixnsqsxacfwndzvrwrycwxrcismdhqapoojegggkocyrdtkzmiekhxoppctytvphjynrhtcvxcobxbcjjivtfjiwmduhzjokkbctweqtigwfhzorjlkpuuliaipbtfldinyetoybvugevwvhhhweejogrghllsouipabfafcxnhukcbtmxzshoyyufjhzadhrelweszbfgwpkzlwxkogyogutscvuhcllphshivnoteztpxsaoaacgxyaztuixhunrowzljqfqrahosheukhahhbiaxqzfmmwcjxountkevsvpbzjnilwpoermxrtlfroqoclexxisrdhvfsindffslyekrzwzqkpeocilatftymodgztjgybtyheqgcpwogdcjlnlesefgvimwbxcbzvaibspdjnrpqtyeilkcspknyylbwndvkffmzuriilxagyerjptbgeqgebiaqnvdubrtxibhvakcyotkfonmseszhczapxdlauexehhaireihxsplgdgmxfvaevrbadbwjbdrkfbbjjkgcztkcbwagtcnrtqryuqixtzhaakjlurnumzyovawrcjiwabuwretmdamfkxrgqgcdgbrdbnugzecbgyxxdqmisaqcyjkqrntxqmdrczxbebemcblftxplafnyoxqimkhcykwamvdsxjezkpgdpvopddptdfbprjustquhlazkjfluxrzopqdstulybnqvyknrchbphcarknnhhovweaqawdyxsqsqahkepluypwrzjegqtdoxfgzdkydeoxvrfhxusrujnmjzqrrlxglcmkiykldbiasnhrjbjekystzilrwkzhontwmehrfsrzfaqrbbxncphbzuuxeteshyrveamjsfiaharkcqxefghgceeixkdgkuboupxnwhnfigpkwnqdvzlydpidcljmflbccarbiegsmweklwngvygbqpescpeichmfidgsjmkvkofvkuehsmkkbocgejoiqcnafvuokelwuqsgkyoekaroptuvekfvmtxtqshcwsztkrzwrpabqrrhnlerxjojemcxel";
+        String[] words = {"dhvf","sind","ffsl","yekr","zwzq","kpeo","cila","tfty","modg","ztjg","ybty","heqg","cpwo","gdcj","lnle","sefg","vimw","bxcb"};
         Util.printListElementWithLine(sub.findSubstring(s, words));
     }
 }
