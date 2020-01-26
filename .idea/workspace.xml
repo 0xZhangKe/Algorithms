@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成 串联所有单词的子串">
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,12 +21,58 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/DivideTwoIntegers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SubstringConcatenationAllWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NextPermutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -25,28 +80,165 @@
     <findStrings>
       <find>sort(</find>
       <find>?</find>
+      <find>onClick</find>
+      <find>SearchResult</find>
+      <find>Search</find>
+      <find>QTSear</find>
+      <find>QtSearchResultFragment</find>
+      <find>听书</find>
+      <find>Fragment get</find>
+      <find>Fragment getSearchFragment</find>
+      <find>getSearchFragment</find>
+      <find>equals</find>
+      <find>get(</find>
+      <find>equals</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1WvDtXmoRIG5j8fGM5as2Bf75UB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/WeightNegative.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/MaximumFlow.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/Utils.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/Prim.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/adt/Edge.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/adt/heap/BinaryHeap.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/adt/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/NoWeightShortestPath.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/TableEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/graph/Kruskal.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/Huffman.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/java/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/zigzag.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ZigZag.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ReverseInteger.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/TntegerToRoman.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RomanToInteger.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/PrintInOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Foo.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3Closest.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/L.etterCombinationsPhone.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/validParentheses.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/IntegerToRoman.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Common.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveNthNodeFromEndOfList.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParenthesis.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/data/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MergeKSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/PlayKT.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SwapNodesInPairs.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ReverseNodesInKGroup.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveDuplicatesFromSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveElement.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ImplementStrstr.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/DivideTwoIntegers.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Util.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/KotlinTest.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SubstringConcatenationAllWords.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NextPermutation.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="90" />
+    <option name="y" value="-23" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/classes3.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\QT\Desktop\FIles\MineCode\Algorithms\lib" />
       <recent name="D:\code\Algorithms\src" />
     </key>
   </component>
@@ -55,9 +247,27 @@
       <command value="println(23)" />
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Kotlin.com.zhangke.algorithms.leetcode.Sum3ClosestKt">
     <configuration name="Foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.Foo" />
+=======
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NextPermutation">
+    <configuration name="DivideTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.DivideTwoIntegers" />
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -69,21 +279,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.LongestCommonPrefix" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+=======
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.Main" />
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +297,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.Sum3" />
+<<<<<<< HEAD
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.Main" />
+=======
+    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.NextPermutation" />
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -108,20 +315,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="Sum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.Sum3" />
+=======
+    <configuration name="SubstringConcatenationAllWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.SubstringConcatenationAllWords" />
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
     <configuration name="com.zhangke.algorithms.leetcode.Sum3ClosestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="com.zhangke.algorithms.KotlinTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
       <module name="Algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.Sum3ClosestKt" />
+=======
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.KotlinTestKt" />
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.Foo" />
       <item itemvalue="Application.LongestCommonPrefix" />
       <item itemvalue="Application.Main" />
@@ -150,6 +384,24 @@
       </list>
     </option>
   </component>
+=======
+      <item itemvalue="Application.DivideTwoIntegers" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SubstringConcatenationAllWords" />
+      <item itemvalue="Kotlin.com.zhangke.algorithms.KotlinTestKt" />
+      <item itemvalue="Application.NextPermutation" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NextPermutation" />
+        <item itemvalue="Application.SubstringConcatenationAllWords" />
+        <item itemvalue="Kotlin.com.zhangke.algorithms.KotlinTestKt" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DivideTwoIntegers" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -183,6 +435,7 @@
       <workItem from="1559833418398" duration="158000" />
       <workItem from="1560226495034" duration="3865000" />
       <workItem from="1560231463291" duration="2506000" />
+<<<<<<< HEAD
       <workItem from="1567331813612" duration="2703000" />
       <workItem from="1580021390991" duration="1171000" />
     </task>
@@ -206,6 +459,8 @@
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1553179155927</updated>
+=======
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
     </task>
     <task id="LOCAL-00004" summary="修改实现类">
       <created>1553179177909</created>
@@ -354,6 +609,7 @@
       <option name="project" value="LOCAL" />
       <updated>1567163078190</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00025" summary="完成最接近的三数之和">
       <created>1567335589147</created>
       <option name="number" value="00025" />
@@ -367,30 +623,334 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+=======
+    <task id="LOCAL-00025" summary="完善最接近的三数之和">
+      <created>1567309718054</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1567309718054</updated>
+    </task>
+    <task id="LOCAL-00026" summary="添加电话号码的字母组合">
+      <created>1567396786664</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1567396786664</updated>
+    </task>
+    <task id="LOCAL-00027" summary="更新电话号码的字母组合">
+      <created>1567477548646</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1567477548646</updated>
+    </task>
+    <task id="LOCAL-00028" summary="更新电话号码的字母组合">
+      <created>1567565506401</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1567565506401</updated>
+    </task>
+    <task id="LOCAL-00029" summary="更新电话号码的字母组合">
+      <created>1567601743090</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1567601743090</updated>
+    </task>
+    <task id="LOCAL-00030" summary="完成电话号码的字母组合">
+      <created>1567648612492</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1567648612492</updated>
+    </task>
+    <task id="LOCAL-00031" summary="添加 四数之和">
+      <created>1567649015612</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1567649015612</updated>
+    </task>
+    <task id="LOCAL-00032" summary="添加 四数之和">
+      <created>1567767492397</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1567767492397</updated>
+    </task>
+    <task id="LOCAL-00033" summary="完成 删除链表的倒数第N个节点">
+      <created>1567999422896</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1567999422896</updated>
+    </task>
+    <task id="LOCAL-00034" summary="完成 有效的括号">
+      <created>1568079629615</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1568079629615</updated>
+    </task>
+    <task id="LOCAL-00035" summary="完成 合并两个有序链表">
+      <created>1568166807050</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1568166807050</updated>
+    </task>
+    <task id="LOCAL-00036" summary="添加 括号生成">
+      <created>1568255031613</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1568255031613</updated>
+    </task>
+    <task id="LOCAL-00037" summary="更新工具库">
+      <created>1568255048319</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1568255048319</updated>
+    </task>
+    <task id="LOCAL-00038" summary="添加 括号生成">
+      <created>1568970042974</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1568970042974</updated>
+    </task>
+    <task id="LOCAL-00039" summary="完成 括号生成">
+      <created>1572402226786</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1572402226786</updated>
+    </task>
+    <task id="LOCAL-00040" summary="更新合并K个排序链表">
+      <created>1572493422871</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1572493422871</updated>
+    </task>
+    <task id="LOCAL-00041" summary="完成合并K个排序链表">
+      <created>1572493790635</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1572493790635</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add kotlin support lib">
+      <created>1573438333387</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1573438333387</updated>
+    </task>
+    <task id="LOCAL-00043" summary="完成两两交换链表中的节点">
+      <created>1573449053619</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1573449053619</updated>
+    </task>
+    <task id="LOCAL-00044" summary="完成 K 个一组翻转链表">
+      <created>1573527796955</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1573527796955</updated>
+    </task>
+    <task id="LOCAL-00045" summary="完成 删除排序数组中的重复项">
+      <created>1573611498522</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1573611498522</updated>
+    </task>
+    <task id="LOCAL-00046" summary="完成 移除元素">
+      <created>1573716062824</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1573716062824</updated>
+    </task>
+    <task id="LOCAL-00047" summary="完成 实现 strStr()">
+      <created>1574043637367</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1574043637368</updated>
+    </task>
+    <task id="LOCAL-00048" summary="添加 两数相除">
+      <created>1574129504939</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1574129504939</updated>
+    </task>
+    <task id="LOCAL-00049" summary="添加 串联所有单词的子串">
+      <created>1574217602347</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1574217602347</updated>
+    </task>
+    <task id="LOCAL-00050" summary="修改 串联所有单词的子串">
+      <created>1574305819639</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1574305819639</updated>
+    </task>
+    <task id="LOCAL-00051" summary="修改 串联所有单词的子串">
+      <created>1574391525288</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1574391525290</updated>
+    </task>
+    <task id="LOCAL-00052" summary="完成 串联所有单词的子串">
+      <created>1575429005201</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1575429005201</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="226893000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.24054463" />
+      <window_info id="Structure" order="1" sideWeight="0.5083426" side_tool="true" weight="0.20202559" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.4641638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32996634" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5030257" side_tool="true" weight="0.4641638" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32764506" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32935154" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="leetcode" order="10" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4916574" visible="true" weight="0.2473525" />
+      <window_info id="Structure" order="1" sideWeight="0.5083426" side_tool="true" weight="0.20202559" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.3409836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40163934" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32996634" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32786885" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="leetcode" order="10" side_tool="true" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加二叉堆、排序等数据结构与算法" />
-    <MESSAGE value="添加各种排序算法" />
-    <MESSAGE value="添加文件操作工具类" />
-    <MESSAGE value="修改实现类" />
-    <MESSAGE value="完成拓扑算法" />
-    <MESSAGE value="无权最短路径算法完成" />
-    <MESSAGE value="修改包名" />
-    <MESSAGE value="权重改为 int" />
-    <MESSAGE value="添加最短路径辅助标记表" />
-    <MESSAGE value="更新注释" />
-    <MESSAGE value="具有负值边的最短路径" />
-    <MESSAGE value="完成 Prim 算法" />
-    <MESSAGE value="完善图论算法" />
-    <MESSAGE value="添加注释" />
-    <MESSAGE value="添加盛水最多的容器" />
-    <MESSAGE value="完成整数转罗马数字" />
-    <MESSAGE value="完成罗马数字转整数" />
-    <MESSAGE value="添加最长公共前缀" />
-    <MESSAGE value="完成最长公共前缀" />
-    <MESSAGE value="添加三数之和" />
-    <MESSAGE value="添加按序打印" />
     <MESSAGE value="完成三数之和" />
     <MESSAGE value="添加最接近的三数之和" />
+<<<<<<< HEAD
     <MESSAGE value="完成最接近的三数之和" />
     <option name="LAST_COMMIT_MESSAGE" value="完成最接近的三数之和" />
   </component>
@@ -403,9 +963,428 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="468" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1580021443437" />
+=======
+    <MESSAGE value="完善最接近的三数之和" />
+    <MESSAGE value="添加电话号码的字母组合" />
+    <MESSAGE value="更新电话号码的字母组合" />
+    <MESSAGE value="完成电话号码的字母组合" />
+    <MESSAGE value="添加 四数之和" />
+    <MESSAGE value="完成 删除链表的倒数第N个节点" />
+    <MESSAGE value="完成 有效的括号" />
+    <MESSAGE value="完成 合并两个有序链表" />
+    <MESSAGE value="更新工具库" />
+    <MESSAGE value="添加 括号生成" />
+    <MESSAGE value="完成 括号生成" />
+    <MESSAGE value="更新合并K个排序链表" />
+    <MESSAGE value="完成合并K个排序链表" />
+    <MESSAGE value="add kotlin support lib" />
+    <MESSAGE value="完成两两交换链表中的节点" />
+    <MESSAGE value="完成 K 个一组翻转链表" />
+    <MESSAGE value="完成 删除排序数组中的重复项" />
+    <MESSAGE value="完成 移除元素" />
+    <MESSAGE value="完成 实现 strStr()" />
+    <MESSAGE value="添加 两数相除" />
+    <MESSAGE value="添加 串联所有单词的子串" />
+    <MESSAGE value="修改 串联所有单词的子串" />
+    <MESSAGE value="完成 串联所有单词的子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 串联所有单词的子串" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="tmp" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithms$RemoveElement.ic" NAME="RemoveElement Coverage Results" MODIFIED="1573699916491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zhangke.algorithms.leetcode.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="1289" column="25" selection-start-line="1289" selection-start-column="25" selection-end-line="1289" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/regexp/joni/Regex.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2552">
+          <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib.jar!/kotlin/text/Regex.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/IntegerToRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Common.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="928" column="18" selection-start-line="928" selection-start-column="18" selection-end-line="928" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MergeTwoSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveNthNodeFromEndOfList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParenthesis.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MergeKSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/PlayKT.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/classes.jar!/com/zhangyue/iReader/bookshelf/ui/BookSHUtil.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/classes2.jar!/com/zhangyue/iReader/bookshelf/ui/eb.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/classes2.jar!/com/zhangyue/iReader/bookshelf/ui/gg.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/classes.jar!/com/zhangyue/iReader/plugin/PluginFactory.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/classes.jar!/com/zhangyue/iReader/bookshelf/search/c.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/classes3.jar!/fm/qingting/customize/huaweireader/ui/SearchActivity.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/classes2.jar!/com/huawei/search/popular/PopWordHelper.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/classes3.jar!/fm/qingting/customize/huaweireader/ui/fragment/QtSearchResultFragment.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/javafx-src.zip!/com/sun/webkit/dom/DocumentFragmentImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes2.jar!/com/zhangyue/iReader/bookshelf/ui/BookShelfFragment.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/classes3.jar!/fm/qingting/customize/huaweireader/FmHelper.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/data/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ImplementStrstr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveDuplicatesFromSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ReverseNodesInKGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SwapNodesInPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="4419" column="36" selection-start-line="4419" selection-start-column="36" selection-end-line="4419" selection-end-column="36" />
+          <folding>
+            <element signature="e#175306#175307#0" expanded="true" />
+            <element signature="e#175349#175350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-747">
+          <caret line="1752" column="15" selection-start-line="1752" selection-start-column="15" selection-end-line="1752" selection-end-column="15" />
+          <folding>
+            <element signature="e#66457#66458#0" expanded="true" />
+            <element signature="e#66495#66496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="3269" column="25" selection-start-line="3269" selection-start-column="25" selection-end-line="3269" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="173" column="7" lean-forward="true" selection-start-line="173" selection-start-column="7" selection-end-line="173" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="137" column="42" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/KotlinTest.kt" />
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/DivideTwoIntegers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SubstringConcatenationAllWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="270" column="25" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
+          <folding>
+            <element signature="e#10333#10334#0" expanded="true" />
+            <element signature="e#10414#10415#0" expanded="true" />
+            <element signature="e#46227#46228#0" expanded="true" />
+            <element signature="e#46266#46267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NextPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 0d72fdd07e951190aece244b5c12af515979f50e
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Algorithms</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
