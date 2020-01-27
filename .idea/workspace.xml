@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成 串联所有单词的子串">
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NextPermutation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +72,9 @@
       <command value="println(23)" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.NextPermutation">
-    <configuration name="DivideTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.DivideTwoIntegers" />
+  <component name="RunManager" selected="Application.LongestValidParentheses">
+    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.LongestValidParentheses" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -139,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DivideTwoIntegers" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SubstringConcatenationAllWords" />
       <item itemvalue="Application.NextPermutation" />
       <item itemvalue="Kotlin.com.zhangke.algorithms.KotlinTestKt" />
+      <item itemvalue="Application.LongestValidParentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestValidParentheses" />
         <item itemvalue="Application.NextPermutation" />
         <item itemvalue="Application.SubstringConcatenationAllWords" />
         <item itemvalue="Kotlin.com.zhangke.algorithms.KotlinTestKt" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DivideTwoIntegers" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +200,7 @@
       <workItem from="1559833418398" duration="158000" />
       <workItem from="1560226495034" duration="3865000" />
       <workItem from="1560231463291" duration="2506000" />
-      <workItem from="1580022891390" duration="10102000" />
+      <workItem from="1580022891390" duration="16300000" />
     </task>
     <task id="LOCAL-00004" summary="修改实现类">
       <created>1553179177909</created>
@@ -621,49 +621,44 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="414" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1580051091766" />
-    <state width="1493" height="296" key="GridCell.Tab.0.bottom" timestamp="1580093922222">
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom" timestamp="1580126832181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580093922222" />
-    <state width="1493" height="296" key="GridCell.Tab.0.center" timestamp="1580093922222">
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
+    <state width="1493" height="296" key="GridCell.Tab.0.center" timestamp="1580126832181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580093922222" />
-    <state width="1493" height="296" key="GridCell.Tab.0.left" timestamp="1580093922222">
+    <state width="1493" height="296" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
+    <state width="1493" height="296" key="GridCell.Tab.0.left" timestamp="1580126832181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580093922222" />
-    <state width="1493" height="296" key="GridCell.Tab.0.right" timestamp="1580093922222">
+    <state width="1493" height="296" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
+    <state width="1493" height="296" key="GridCell.Tab.0.right" timestamp="1580126832181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580093922222" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1580093747566">
+    <state width="1493" height="296" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1580125944812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580093747566" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1580093747566">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1580125944812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580093747566" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1580093747565">
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1580125944812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580093747565" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1580093747566">
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1580125944812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580093747566" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1580126143825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580126143825" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NextPermutation.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="tmp" />
