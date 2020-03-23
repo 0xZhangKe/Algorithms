@@ -33,7 +33,7 @@ fun printNode(node: ListNode) {
 
 fun printNode(node: com.zhangke.algorithms.data.ListNode) {
     println(StringBuilder().apply {
-        var curNode:com.zhangke.algorithms.data.ListNode?  = node
+        var curNode: com.zhangke.algorithms.data.ListNode? = node
         while (curNode != null) {
             append(curNode.`val`)
             curNode = curNode.next
@@ -52,4 +52,20 @@ fun printListElementWithLine(list: List<*>) {
     println("[")
     list.forEach { println("    \"$it\",") }
     println("]")
+}
+
+fun printArray(array: IntArray){
+    val builder = StringBuilder()
+    for (index in array.indices) {
+        if (index == 0) {
+            builder.append("[")
+        }
+        builder.append(array[index])
+        if (index != array.size - 1) {
+            builder.append(",")
+        } else {
+            builder.append("]")
+        }
+    }
+    println(builder.toString())
 }
