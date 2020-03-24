@@ -39,7 +39,7 @@ public class FindFLEleInSortedArray {
 
     public static void main(String[] args) {
         FindFLEleInSortedArray obj = new FindFLEleInSortedArray();
-        int[] nums = new int[]{1};
-        Util.printArray(obj.searchRange(nums, 1));
+        int[] nums = new int[]{1,3,5,6};
+        Util.printArray(obj.searchRange(nums, 6));
     }
 }
