@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成 有效的数独">
-      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java" afterDir="false" />
+    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成 N 皇后问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidSudoku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,24 +18,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="-79">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="method#printBoard#0;class#SudokuSolver#0" />
+                <element signature="method#main#0;class#SudokuSolver#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/NQueens.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-497">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidSudoku.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NQueens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#backtrace#0;class#NQueens#0" />
-                <element signature="e#1857#1866#0" />
               </folding>
             </state>
           </provider>
@@ -68,7 +88,8 @@
       <find>getSearchFragment</find>
       <find>equals</find>
       <find>get(</find>
-      <find>equals</find>
+      <find>row:6</find>
+      <find>row:6column:6</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,20 +98,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SearchInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/FindFLEleInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SearchInsertPosition.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidSudoku.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/EightQueens.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/NQueens.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NQueens.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1660" />
+    <option name="x" value="1761" />
     <option name="y" value="-18" />
     <option name="width" value="1026" />
     <option name="height" value="546" />
@@ -102,7 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,17 +137,11 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -167,13 +183,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NQueens">
-    <configuration name="FindFLEleInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.FindFLEleInSortedArray" />
+  <component name="RunManager" selected="Application.SudokuSolver">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.Main" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
+          <option name="PATTERN" value="com.zhangke.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,8 +210,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.SearchInRotatedSortedArray" />
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.SearchInsertPosition" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -207,8 +223,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.SearchInsertPosition" />
+    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.SudokuSolver" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -234,19 +250,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SearchInRotatedSortedArray" />
-      <item itemvalue="Application.FindFLEleInSortedArray" />
-      <item itemvalue="Application.SearchInsertPosition" />
-      <item itemvalue="Application.ValidSudoku" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.NQueens" />
+      <item itemvalue="Application.SearchInsertPosition" />
+      <item itemvalue="Application.SudokuSolver" />
+      <item itemvalue="Application.ValidSudoku" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SudokuSolver" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.NQueens" />
         <item itemvalue="Application.ValidSudoku" />
         <item itemvalue="Application.SearchInsertPosition" />
-        <item itemvalue="Application.FindFLEleInSortedArray" />
-        <item itemvalue="Application.SearchInRotatedSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -296,13 +312,6 @@
       <workItem from="1560226495034" duration="3865000" />
       <workItem from="1560231463291" duration="2506000" />
       <workItem from="1580022891390" duration="16300000" />
-    </task>
-    <task id="LOCAL-00008" summary="权重改为 int">
-      <created>1554031618212</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1554031618212</updated>
     </task>
     <task id="LOCAL-00009" summary="更新注释">
       <created>1554031637279</created>
@@ -640,14 +649,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585105560314</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="完成 N 皇后问题">
+      <created>1585909647765</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1585909647766</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11940298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -656,15 +672,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44766146" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5634744" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4688196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32962137" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32935154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -723,7 +739,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新电话号码的字母组合" />
     <MESSAGE value="完成电话号码的字母组合" />
     <MESSAGE value="添加 四数之和" />
     <MESSAGE value="完成 删除链表的倒数第N个节点" />
@@ -748,7 +763,8 @@
     <MESSAGE value="完成 搜索旋转排序数组" />
     <MESSAGE value="完成 在排序数组中查找元素的第一个和最后一个位置" />
     <MESSAGE value="完成 有效的数独" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 有效的数独" />
+    <MESSAGE value="完成 N 皇后问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 N 皇后问题" />
   </component>
   <component name="WindowStateProjectService">
     <state width="414" height="466" key="DebuggerActiveHint" timestamp="1580051091766">
@@ -793,11 +809,16 @@
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580126143825" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="tmp" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -811,27 +832,52 @@
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
-        <expression-string>columnIndex == 4</expression-string>
+        <expression-string>row == 5 &amp;&amp; column == 0</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>row ==</expression-string>
+        <expression-string>board[0][0]==5 &amp;&amp; board[0][1]==3 &amp;&amp; board[0][2]==4 &amp;&amp; board[0][3]==6 &amp;&amp; board[0][4]==7</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>row == 5 &amp;&amp; columnIndex == 4</expression-string>
+        <expression-string>board[0][0]==5</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i == 3</expression-string>
+        <expression-string>board[0][0]==0</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>j == 3</expression-string>
+        <expression-string>row == 8 &amp;&amp;  column == 7</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row == 8 &amp;&amp;  column == 6</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row == 0 &amp;&amp; column == 5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row == 8 &amp;&amp; column == 8</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row == 8 &amp;&amp; column == 7</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row == 9 &amp;&amp; column == 9</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -892,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1408">
@@ -920,31 +959,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidSudoku.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-79">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#1718#1770#0" />
+            <element signature="method#printBoard#0;class#SudokuSolver#0" />
+            <element signature="method#main#0;class#SudokuSolver#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/NQueens.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidSudoku.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-497">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#backtrace#0;class#NQueens#0" />
-            <element signature="e#1857#1866#0" />
           </folding>
         </state>
       </provider>
