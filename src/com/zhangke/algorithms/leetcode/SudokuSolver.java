@@ -1,6 +1,7 @@
 package com.zhangke.algorithms.leetcode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -10,14 +11,31 @@ import java.util.List;
  */
 public class SudokuSolver {
 
+    int count = 0;
+
     public void solveSudoku(char[][] board) {
         List<Character>[] rowRecord = new ArrayList[9];
         List<Character>[] columnRecord = new ArrayList[9];
         List<Character>[] boxRecord = new ArrayList[9];
-        for (int i = 0; i < 9; i++) {
-            rowRecord[i] = new ArrayList<>(9);
-            columnRecord[i] = new ArrayList<>(9);
-            boxRecord[i] = new ArrayList<>(9);
+        for (int row = 0; row < 9; row++) {
+            for (int column = 0; column < 9; column++) {
+                Character c = board[row][column];
+                if (rowRecord[row] == null) {
+                    rowRecord[row] = new ArrayList<>(9);
+                }
+                if (columnRecord[column] == null) {
+                    columnRecord[column] = new ArrayList<>(9);
+                }
+                int boxIndex = (row / 3) * 3 + column / 3;
+                if (boxRecord[boxIndex] == null) {
+                    boxRecord[boxIndex] = new ArrayList<>(9);
+                }
+                if (c != '.') {
+                    rowRecord[row].add(c);
+                    columnRecord[column].add(c);
+                    boxRecord[boxIndex].add(c);
+                }
+            }
         }
         backtrack(board, 0, 0, rowRecord, columnRecord, boxRecord);
     }
@@ -27,7 +45,8 @@ public class SudokuSolver {
                               List<Character>[] rowRecord,
                               List<Character>[] columnRecord,
                               List<Character>[] boxRecord) {
-        System.out.println("row:" + row + "column:" + column);
+        count++;
+//        System.out.println("row:" + row + ",column:" + column);
         if (row == 9) {
             return true;
         }
@@ -56,20 +75,7 @@ public class SudokuSolver {
                 }
             }
         } else {
-            if (!rowRecord[row].contains(currentChar) &&
-                    !columnRecord[column].contains(currentChar) &&
-                    !boxRecord[boxIndex].contains(currentChar)) {
-                rowRecord[row].add(currentChar);
-                columnRecord[column].add(currentChar);
-                boxRecord[boxIndex].add(currentChar);
-                if (!backtrack(board, nextRow, nextColumn, rowRecord, columnRecord, boxRecord)) {
-                    rowRecord[row].remove(currentChar);
-                    columnRecord[column].remove(currentChar);
-                    boxRecord[boxIndex].remove(currentChar);
-                } else {
-                    return true;
-                }
-            }
+            return backtrack(board, nextRow, nextColumn, rowRecord, columnRecord, boxRecord);
         }
         return false;
     }
@@ -94,16 +100,27 @@ public class SudokuSolver {
     }
 
     public static void main(String[] args) {
+//        String[][] original = {
+//                {"5", "3", ".", ".", "7", ".", ".", ".", "."},
+//                {"6", ".", ".", "1", "9", "5", ".", ".", "."},
+//                {".", "9", "8", ".", ".", ".", ".", "6", "."},
+//                {"8", ".", ".", ".", "6", ".", ".", ".", "3"},
+//                {"4", ".", ".", "8", ".", "3", ".", ".", "1"},
+//                {"7", ".", ".", ".", "2", ".", ".", ".", "6"},
+//                {".", "6", ".", ".", ".", ".", "2", "8", "."},
+//                {".", ".", ".", "4", "1", "9", ".", ".", "5"},
+//                {".", ".", ".", ".", "8", ".", ".", "7", "9"}
+//        };
         String[][] original = {
-                {"5", "3", ".", ".", "7", ".", ".", ".", "."},
-                {"6", ".", ".", "1", "9", "5", ".", ".", "."},
-                {".", "9", "8", ".", ".", ".", ".", "6", "."},
-                {"8", ".", ".", ".", "6", ".", ".", ".", "3"},
-                {"4", ".", ".", "8", ".", "3", ".", ".", "1"},
-                {"7", ".", ".", ".", "2", ".", ".", ".", "6"},
-                {".", "6", ".", ".", ".", ".", "2", "8", "."},
-                {".", ".", ".", "4", "1", "9", ".", ".", "5"},
-                {".", ".", ".", ".", "8", ".", ".", "7", "9"}
+                {".", ".", "9", "7", "4", "8", ".", ".", "."},
+                {"7", ".", ".", ".", ".", ".", ".", ".", "."},
+                {".", "2", ".", "1", ".", "9", ".", ".", "."},
+                {".", ".", "7", ".", ".", ".", "2", "4", "."},
+                {".", "6", "4", ".", "1", ".", "5", "9", "."},
+                {".", "9", "8", ".", ".", ".", "3", ".", "."},
+                {".", ".", ".", "8", ".", "3", ".", "2", "."},
+                {".", ".", ".", ".", ".", ".", ".", ".", "6"},
+                {".", ".", ".", "2", "7", "5", "9", ".", "."}
         };
         char[][] board = new char[9][9];
         for (int i = 0; i < 9; i++) {
@@ -112,7 +129,9 @@ public class SudokuSolver {
             }
         }
         SudokuSolver sodokuSolver = new SudokuSolver();
+        long start = System.currentTimeMillis();
         sodokuSolver.solveSudoku(board);
+        System.out.println("use:" + (System.currentTimeMillis() - start) + "ms,count:" + sodokuSolver.count);
         SudokuSolver.printBoard(board);
     }
 }
