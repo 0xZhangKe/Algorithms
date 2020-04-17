@@ -1,7 +1,6 @@
 package com.zhangke.algorithms.leetcode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -13,58 +12,33 @@ import java.util.List;
 public class CombinationSum {
 
     /**
-     * 排序;
-     * 开始遍历数组:
-     * 如果数值小于 Target:
+     * 想象成一个二维数组：
+     * 第 N 行数据为数组中第 N 个元素，长度为该元素组成 Target 个数；
+     * 回溯法通过遍历列进行。
      */
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         if (candidates == null || candidates.length == 0) return null;
-        Arrays.sort(candidates);
         int len = candidates.length;
         List<List<Integer>> result = new ArrayList<>();
-        for (int i = 0; i < len; i++) {
-            int item = candidates[i];
-            if (item > target) break;
-            if (target % item == 0) {
-                addRecord(item, target / item, 0, 0, result);
-            }
-            int secondValueIndex = i + 1;
-            while (secondValueIndex < len && candidates[secondValueIndex] < target) {
-                addTwoValueForTarget(item, candidates[secondValueIndex], target, result);
-                secondValueIndex++;
-            }
-        }
+        backtrace(candidates, new ArrayList<>(len * 2), target, result);
         return result;
     }
 
-    private void addTwoValueForTarget(int first, int second, int target, List<List<Integer>> record) {
-        int firstMax = target / first;
-        for (int firstCount = 1; firstCount <= firstMax; firstCount++) {
-            int diff = target - first * firstCount;
-            int secondCount = diff / second;
-            if (diff % second == 0 && secondCount != 0) {
-                addRecord(first, firstCount, second, secondCount, record);
-            }
-        }
-    }
-
-    private void addRecord(int first, int firstCount, int second, int secondCount, List<List<Integer>> record) {
-        if (firstCount == 0 && secondCount == 0) return;
-        List<Integer> result = new ArrayList<>();
-        for (int i = 0; i < firstCount; i++) {
-            result.add(first);
-        }
-        for (int i = 0; i < secondCount; i++) {
-            result.add(second);
-        }
-        record.add(result);
-    }
-
-    private void divide(int value, int target, List<Integer> lineRecord) {
-        if (target % value == 0) {
-            int count = target / value;
-            for (int i = 0; i < count; i++) {
-                lineRecord.add(value);
+    private void backtrace(int[] candidates, List<Integer> path, int target, List<List<Integer>> recordList) {
+        for (int i = 0; i < candidates.length; i++) {
+            Integer item = candidates[i];
+            if (item == target) {
+                if (path.isEmpty()) {
+                    recordList.add(Collections.singletonList(item));
+                } else {
+                    List<Integer> list = new ArrayList<>(path);
+                    list.add(item);
+                    recordList.add(list);
+                }
+            } else if (item < target) {
+                path.add(item);
+                backtrace(candidates, path, target - item, recordList);
+                path.remove(item);
             }
         }
     }
