@@ -54,7 +54,33 @@ fun printListElementWithLine(list: List<*>) {
     println("]")
 }
 
-fun printArray(array: IntArray){
+fun printList(list: List<*>) {
+    val builder = StringBuilder()
+    builder.append("[")
+    for (index in list.indices) {
+        builder.append(list[index])
+        if (index != list.size - 1) {
+            builder.append(",")
+        }
+    }
+    builder.append("]")
+    print(builder.toString())
+}
+
+fun printNestedList(list: List<List<*>>) {
+    println("[")
+    for (index in list.indices) {
+        print("  ")
+        printList(list[index])
+        if (index != list.size - 1) {
+            print(",")
+        }
+        print("\n")
+    }
+    print("]")
+}
+
+fun printArray(array: IntArray) {
     val builder = StringBuilder()
     for (index in array.indices) {
         if (index == 0) {

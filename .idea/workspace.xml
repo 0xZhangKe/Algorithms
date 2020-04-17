@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成 解数独">
-      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CountAndSay.java" afterDir="false" />
+    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成 外观数列">
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,17 +21,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state>
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CountAndSay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="69" column="19" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -72,7 +94,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SearchInRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/FindFLEleInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SearchInsertPosition.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidSudoku.java" />
@@ -82,14 +103,16 @@
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CountAndSay.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1425" />
-    <option name="y" value="-15" />
-    <option name="width" value="1026" />
-    <option name="height" value="546" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectId" id="1WvGw1sVS8OGLYbWkXDdId35tAu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -98,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -128,7 +152,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -145,7 +168,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -170,7 +193,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountAndSay">
+  <component name="RunManager" selected="Application.CombinationSum">
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.CombinationSum" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.CountAndSay" />
       <module name="Algorithms" />
@@ -223,33 +259,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.ValidSudoku" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.CountAndSay" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.NQueens" />
       <item itemvalue="Application.SudokuSolver" />
-      <item itemvalue="Application.ValidSudoku" />
-      <item itemvalue="Application.CountAndSay" />
+      <item itemvalue="Application.CombinationSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSum" />
         <item itemvalue="Application.CountAndSay" />
         <item itemvalue="Application.SudokuSolver" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.NQueens" />
-        <item itemvalue="Application.ValidSudoku" />
       </list>
     </recent_temporary>
   </component>
@@ -299,13 +322,6 @@
       <workItem from="1560226495034" duration="3865000" />
       <workItem from="1560231463291" duration="2506000" />
       <workItem from="1580022891390" duration="16300000" />
-    </task>
-    <task id="LOCAL-00011" summary="更新注释">
-      <created>1554046394427</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1554046394427</updated>
     </task>
     <task id="LOCAL-00012" summary="具有负值边的最短路径">
       <created>1554046419824</created>
@@ -643,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586943153489</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="完成 外观数列">
+      <created>1587005411058</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1587005411058</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView">
@@ -656,10 +679,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -668,7 +690,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3051225" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3051225" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4688196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,7 +698,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32935154" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850778" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -735,7 +757,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成 删除链表的倒数第N个节点" />
     <MESSAGE value="完成 有效的括号" />
     <MESSAGE value="完成 合并两个有序链表" />
     <MESSAGE value="更新工具库" />
@@ -760,7 +781,8 @@
     <MESSAGE value="完成 N 皇后问题" />
     <MESSAGE value="添加 解数独 问题" />
     <MESSAGE value="完成 解数独" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 解数独" />
+    <MESSAGE value="完成 外观数列" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 外观数列" />
   </component>
   <component name="WindowStateProjectService">
     <state width="414" height="466" key="DebuggerActiveHint" timestamp="1580051091766">
@@ -803,18 +825,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580126143825" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CountAndSay.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -905,13 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40458">
-          <caret line="1898" column="22" selection-start-line="1898" selection-start-column="22" selection-end-line="1898" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/FindFLEleInSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
@@ -945,13 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17754">
           <caret line="807" column="56" selection-start-line="807" selection-start-column="56" selection-end-line="807" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -992,15 +988,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state>
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CountAndSay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
