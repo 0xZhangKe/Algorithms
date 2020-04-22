@@ -1,6 +1,7 @@
 package com.zhangke.algorithms.leetcode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -18,35 +19,40 @@ public class CombinationSum {
      */
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         if (candidates == null || candidates.length == 0) return null;
+        Arrays.sort(candidates);
         int len = candidates.length;
         List<List<Integer>> result = new ArrayList<>();
-        backtrace(candidates, new ArrayList<>(len * 2), target, result);
+        backtrace(candidates, new ArrayList<>(len * 2), target, 0, result);
         return result;
     }
 
-    private void backtrace(int[] candidates, List<Integer> path, int target, List<List<Integer>> recordList) {
-        for (int i = 0; i < candidates.length; i++) {
+    private int count = 0;
+
+    /**
+     * @return 是否需要继续循环
+     */
+    private void backtrace(int[] candidates, List<Integer> path, int target, int left, List<List<Integer>> recordList) {
+        count++;
+        if(target == 0){
+            recordList.add(new ArrayList<>(path));
+        }
+        for (int i = left; i < candidates.length; i++) {
             Integer item = candidates[i];
-            if (item == target) {
-                if (path.isEmpty()) {
-                    recordList.add(Collections.singletonList(item));
-                } else {
-                    List<Integer> list = new ArrayList<>(path);
-                    list.add(item);
-                    recordList.add(list);
-                }
-            } else if (item < target) {
-                path.add(item);
-                backtrace(candidates, path, target - item, recordList);
-                path.remove(item);
+            if(target < item){
+                break;
             }
+            path.add(item);
+            backtrace(candidates, path, target - item, i, recordList);
+            path.remove(item);
         }
     }
 
     public static void main(String[] args) {
         CombinationSum sum = new CombinationSum();
-        int[] candidates = new int[]{7, 3, 2};
-        List<List<Integer>> result = sum.combinationSum(candidates, 18);
+        int[] candidates = new int[]{2, 3, 6, 7};
+        List<List<Integer>> result = sum.combinationSum(candidates, 7);
         Util.printNestedList(result);
+        System.out.println();
+        System.out.println(sum.count);
     }
 }
