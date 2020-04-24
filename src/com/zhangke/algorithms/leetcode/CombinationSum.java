@@ -12,11 +12,6 @@ import java.util.List;
  */
 public class CombinationSum {
 
-    /**
-     * 想象成一个二维数组：
-     * 第 N 行数据为数组中第 N 个元素，长度为该元素组成 Target 个数；
-     * 回溯法通过遍历列进行。
-     */
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         if (candidates == null || candidates.length == 0) return null;
         Arrays.sort(candidates);
@@ -26,13 +21,7 @@ public class CombinationSum {
         return result;
     }
 
-    private int count = 0;
-
-    /**
-     * @return 是否需要继续循环
-     */
     private void backtrace(int[] candidates, List<Integer> path, int target, int left, List<List<Integer>> recordList) {
-        count++;
         if(target == 0){
             recordList.add(new ArrayList<>(path));
         }
@@ -53,6 +42,5 @@ public class CombinationSum {
         List<List<Integer>> result = sum.combinationSum(candidates, 7);
         Util.printNestedList(result);
         System.out.println();
-        System.out.println(sum.count);
     }
 }
