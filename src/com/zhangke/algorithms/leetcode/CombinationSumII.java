@@ -23,11 +23,14 @@ public class CombinationSumII {
     private void backtrace(int[] candidates, List<Integer> path, int target, int originalTarget, int left, List<List<Integer>> recordList) {
         if (target == 0) {
             List<Integer> list = new ArrayList<>(path);
-            if (left > 0 && left < candidates.length && candidates[left] == candidates[left - 1]) {
-                if (!recordList.contains(list)) {
-                    recordList.add(list);
-                }
-            } else {
+//            if (left > 0 && left < candidates.length && candidates[left] == candidates[left - 1]) {
+//                if (!recordList.contains(list)) {
+//                    recordList.add(list);
+//                }
+//            } else {
+//                recordList.add(list);
+//            }
+            if (!recordList.contains(list)) {
                 recordList.add(list);
             }
         }
