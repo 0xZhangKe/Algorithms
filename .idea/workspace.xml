@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="添加 组合总和 II">
-      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Permutations.java" afterDir="false" />
+    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成 全排列">
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/Assert.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/FirstMissingPositive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSumII.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,18 +20,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSumII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="230">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,10 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Permutations.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/FirstMissingPositive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="299">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -102,16 +95,18 @@
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSumII.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSumII.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Assert.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/FirstMissingPositive.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1351" />
-    <option name="y" value="18" />
+    <option name="x" value="2005" />
+    <option name="y" value="-24" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectId" id="1WvGw1sVS8OGLYbWkXDdId35tAu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -120,6 +115,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,8 +146,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -163,7 +158,7 @@
     <property name="SearchEverywhereHistoryKey" value="HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/classes3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -192,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Permutations">
+  <component name="RunManager" selected="Application.FirstMissingPositive">
     <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.CombinationSum" />
       <module name="Algorithms" />
@@ -219,8 +214,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.CountAndSay" />
+    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.FirstMissingPositive" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -259,19 +254,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountAndSay" />
-      <item itemvalue="Application.CombinationSum" />
-      <item itemvalue="Application.Sum4" />
       <item itemvalue="Application.CombinationSumII" />
+      <item itemvalue="Application.CombinationSum" />
       <item itemvalue="Application.Permutations" />
+      <item itemvalue="Application.Sum4" />
+      <item itemvalue="Application.FirstMissingPositive" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.FirstMissingPositive" />
         <item itemvalue="Application.CombinationSumII" />
+        <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.CombinationSum" />
         <item itemvalue="Application.Sum4" />
-        <item itemvalue="Application.CountAndSay" />
       </list>
     </recent_temporary>
   </component>
@@ -321,13 +316,6 @@
       <workItem from="1560226495034" duration="3865000" />
       <workItem from="1560231463291" duration="2506000" />
       <workItem from="1580022891390" duration="16300000" />
-    </task>
-    <task id="LOCAL-00017" summary="完成整数转罗马数字">
-      <created>1563350476773</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1563350476773</updated>
     </task>
     <task id="LOCAL-00018" summary="完成罗马数字转整数">
       <created>1563350490455</created>
@@ -665,7 +653,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587707394661</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="完成 全排列">
+      <created>1587867300176</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1587867300176</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TodoView">
@@ -679,9 +674,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -690,8 +684,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24832962" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42316258" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3496659" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27505568" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
@@ -757,7 +751,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成 括号生成" />
     <MESSAGE value="更新合并K个排序链表" />
     <MESSAGE value="完成合并K个排序链表" />
     <MESSAGE value="add kotlin support lib" />
@@ -782,7 +775,8 @@
     <MESSAGE value="完成 四数之和" />
     <MESSAGE value="完成 组合总和" />
     <MESSAGE value="添加 组合总和 II" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 组合总和 II" />
+    <MESSAGE value="完成 全排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 全排列" />
   </component>
   <component name="WindowStateProjectService">
     <state width="414" height="466" key="DebuggerActiveHint" timestamp="1580051091766">
@@ -825,6 +819,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580126143825" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/FirstMissingPositive.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1023,6 +1029,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Sum4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
@@ -1030,9 +1046,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Assert.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/TypeAliases.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Any.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Error.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSumII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="230">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1040,10 +1078,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/Permutations.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Assert.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="281">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/FirstMissingPositive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
