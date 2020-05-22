@@ -11,12 +11,11 @@ import java.util.List;
  */
 public class SudokuSolver {
 
-    int count = 0;
-
     public void solveSudoku(char[][] board) {
         List<Character>[] rowRecord = new ArrayList[9];
         List<Character>[] columnRecord = new ArrayList[9];
         List<Character>[] boxRecord = new ArrayList[9];
+        //初始化数据
         for (int row = 0; row < 9; row++) {
             for (int column = 0; column < 9; column++) {
                 Character c = board[row][column];
@@ -45,8 +44,6 @@ public class SudokuSolver {
                               List<Character>[] rowRecord,
                               List<Character>[] columnRecord,
                               List<Character>[] boxRecord) {
-        count++;
-//        System.out.println("row:" + row + ",column:" + column);
         if (row == 9) {
             return true;
         }
@@ -55,16 +52,21 @@ public class SudokuSolver {
         int boxIndex = (row / 3) * 3 + column / 3;
         Character currentChar = board[row][column];
         if (currentChar == '.') {
+            //逐个尝试把 1-9 放入空格中
             for (int i = 1; i < 10; i++) {
                 Character c = (char) (i + 48);
+                //判断当前行、列、3x3 矩阵中是否包含改数字
                 if (!rowRecord[row].contains(c) &&
                         !columnRecord[column].contains(c) &&
                         !boxRecord[boxIndex].contains(c)) {
+                    //不包含则把数据放入该空格进行尝试
                     board[row][column] = c;
                     rowRecord[row].add(c);
                     columnRecord[column].add(c);
                     boxRecord[boxIndex].add(c);
+                    //跳转到下一个空格继续
                     if (!backtrack(board, nextRow, nextColumn, rowRecord, columnRecord, boxRecord)) {
+                        //改路径无法得出解，回溯到上一个状态
                         board[row][column] = currentChar;
                         rowRecord[row].remove(c);
                         columnRecord[column].remove(c);
@@ -129,9 +131,7 @@ public class SudokuSolver {
             }
         }
         SudokuSolver sodokuSolver = new SudokuSolver();
-        long start = System.currentTimeMillis();
         sodokuSolver.solveSudoku(board);
-        System.out.println("use:" + (System.currentTimeMillis() - start) + "ms,count:" + sodokuSolver.count);
         SudokuSolver.printBoard(board);
     }
 }
