@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="添加组合总和">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java" afterDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成 跳跃游戏 完全平方数" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,135 +10,20 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CountAndSay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>sort(</find>
-      <find>?</find>
-      <find>onClick</find>
-      <find>SearchResult</find>
-      <find>Search</find>
-      <find>QTSear</find>
-      <find>QtSearchResultFragment</find>
-      <find>听书</find>
-      <find>Fragment get</find>
-      <find>Fragment getSearchFragment</find>
-      <find>getSearchFragment</find>
-      <find>equals</find>
-      <find>get(</find>
-      <find>row:6</find>
-      <find>row:6column:6</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SearchInRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/FindFLEleInSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SearchInsertPosition.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidSudoku.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/EightQueens.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/NQueens.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NQueens.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CountAndSay.java" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1301" />
-    <option name="y" value="-23" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
   <component name="ProjectId" id="1WvGw1sVS8OGLYbWkXDdId35tAu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -154,7 +34,7 @@
     <property name="SearchEverywhereHistoryKey" value="HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/classes3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/zhangke/algorithms" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -162,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zk721\Desktop\code\Algorithms\src\com\zhangke\algorithms" />
       <recent name="C:\Users\QT\Desktop\FIles\MineCode\Algorithms\lib" />
       <recent name="D:\code\Algorithms\src" />
     </key>
@@ -171,21 +52,9 @@
       <command value="println(23)" />
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.CombinationSum">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.CombinationSum" />
+  <component name="RunManager" selected="Kotlin.com.zhangke.algorithms.REntityKt">
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.JumpGame" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -197,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.CountAndSay" />
+    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.LongestIncreasingSubsequence" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -210,59 +79,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.Main" />
+    <configuration name="com.zhangke.algorithms.KTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.KTestKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.NQueens" />
+    <configuration name="com.zhangke.algorithms.REntityKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.REntityKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.SudokuSolver" />
+    <configuration name="com.zhangke.algorithms.RReaderKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.RReaderKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountAndSay" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.NQueens" />
-      <item itemvalue="Application.SudokuSolver" />
-      <item itemvalue="Application.CombinationSum" />
+      <item itemvalue="Application.LongestIncreasingSubsequence" />
+      <item itemvalue="Application.JumpGame" />
+      <item itemvalue="Kotlin.com.zhangke.algorithms.KTestKt" />
+      <item itemvalue="Kotlin.com.zhangke.algorithms.RReaderKt" />
+      <item itemvalue="Kotlin.com.zhangke.algorithms.REntityKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.CountAndSay" />
-        <item itemvalue="Application.SudokuSolver" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Kotlin.com.zhangke.algorithms.REntityKt" />
+        <item itemvalue="Kotlin.com.zhangke.algorithms.RReaderKt" />
+        <item itemvalue="Kotlin.com.zhangke.algorithms.KTestKt" />
+        <item itemvalue="Application.JumpGame" />
+        <item itemvalue="Application.LongestIncreasingSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +181,9 @@
       <workItem from="1560226495034" duration="3865000" />
       <workItem from="1560231463291" duration="2506000" />
       <workItem from="1580022891390" duration="16300000" />
+      <workItem from="1590068842409" duration="1859000" />
+      <workItem from="1593843934722" duration="2012000" />
+      <workItem from="1594432485280" duration="27241000" />
     </task>
     <task id="LOCAL-00013" summary="完成 Prim 算法">
       <created>1554303999087</created>
@@ -668,38 +540,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3051225" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4688196" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962137" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850778" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="leetcode" order="4" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Maven" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -719,12 +559,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -775,46 +609,92 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加组合总和" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="414" height="466" key="DebuggerActiveHint" timestamp="1580051091766">
+    <state x="744" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1594652356751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="744" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594652356751" />
+    <state width="518" height="589" key="DebuggerActiveHint" timestamp="1594654852275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="518" height="589" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1594654852275" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593844818954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587385798735" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593844818954" />
+    <state width="1877" height="401" key="GridCell.Tab.0.bottom" timestamp="1594914778759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
+    <state width="1877" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778759" />
+    <state width="1877" height="401" key="GridCell.Tab.0.center" timestamp="1594914778758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
+    <state width="1877" height="401" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778758" />
+    <state width="1877" height="401" key="GridCell.Tab.0.left" timestamp="1594914778757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
+    <state width="1877" height="401" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778757" />
+    <state width="1877" height="401" key="GridCell.Tab.0.right" timestamp="1594914778759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
+    <state width="1877" height="401" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778759" />
+    <state width="1877" height="401" key="GridCell.Tab.1.bottom" timestamp="1594914778762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
+    <state width="1877" height="401" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778762" />
+    <state width="1877" height="401" key="GridCell.Tab.1.center" timestamp="1594914778762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
+    <state width="1877" height="401" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778762" />
+    <state width="1877" height="401" key="GridCell.Tab.1.left" timestamp="1594914778761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
+    <state width="1877" height="401" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778761" />
+    <state width="1877" height="401" key="GridCell.Tab.1.right" timestamp="1594914778762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
+    <state width="1877" height="401" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778762" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594650690937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594650690937" />
+    <state x="178" y="23" key="new project wizard" timestamp="1587385826892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="414" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1580051091766" />
-    <state width="1493" height="296" key="GridCell.Tab.0.bottom" timestamp="1580126832181">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="178" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1587385826892" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594544836679">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
-    <state width="1493" height="296" key="GridCell.Tab.0.center" timestamp="1580126832181">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="296" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
-    <state width="1493" height="296" key="GridCell.Tab.0.left" timestamp="1580126832181">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="296" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
-    <state width="1493" height="296" key="GridCell.Tab.0.right" timestamp="1580126832181">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="296" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1580125944812">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1580125944812">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1580125944812">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1580125944812">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1580126143825">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580126143825" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594544836679" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/PerfectSquares.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/JumpGame.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/JumpGame.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -878,146 +758,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="281" column="13" selection-start-line="281" selection-start-column="13" selection-end-line="281" selection-end-column="13" />
-          <folding>
-            <element signature="e#16779#16780#0" expanded="true" />
-            <element signature="e#16815#16816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NextPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/FindFLEleInSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SearchInsertPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/250px-Sudoku-by-L2G-20050714.svg.png" />
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SearchInRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LetterCombinationsPhone.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17754">
-          <caret line="807" column="56" selection-start-line="807" selection-start-column="56" selection-end-line="807" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/ValidSudoku.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/NQueens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#backtrace#0;class#NQueens#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/SudokuSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="method#printBoard#0;class#SudokuSolver#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/RemoveElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CountAndSay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
