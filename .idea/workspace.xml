@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="完成 跳跃游戏 完全平方数" />
-=======
     <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="添加注释">
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,8 +45,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-<<<<<<< HEAD
-=======
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -82,21 +76,15 @@
       </file>
     </leaf>
   </component>
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-=======
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sort(</find>
@@ -144,9 +132,46 @@
     <option name="width" value="1026" />
     <option name="height" value="546" />
   </component>
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
   <component name="ProjectId" id="1WvGw1sVS8OGLYbWkXDdId35tAu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -165,11 +190,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-<<<<<<< HEAD
-      <recent name="C:\Users\zk721\Desktop\code\Algorithms\src\com\zhangke\algorithms" />
-=======
       <recent name="C:\Users\QT\Desktop\FIles\MineCode\Algorithms\src\com\zhangke\algorithms" />
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
       <recent name="C:\Users\QT\Desktop\FIles\MineCode\Algorithms\lib" />
       <recent name="D:\code\Algorithms\src" />
     </key>
@@ -179,11 +200,6 @@
       <command value="println(23)" />
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Kotlin.com.zhangke.algorithms.REntityKt">
-    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.JumpGame" />
-=======
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -199,7 +215,6 @@
   <component name="RunManager" selected="Application.CoinChange">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.CoinChange" />
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -211,17 +226,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.LongestIncreasingSubsequence" />
-=======
     <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.FirstMissingPositive" />
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.Main" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangke.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,69 +265,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="com.zhangke.algorithms.REntityKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="com.zhangke.algorithms.KTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
-      <module name="Algorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.REntityKt" />
-=======
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.KTestKt" />
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="com.zhangke.algorithms.RReaderKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-=======
     <configuration name="com.zhangke.algorithms.KotlinMainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
       <module name="Algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.RReaderKt" />
-=======
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.KotlinMainKt" />
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-<<<<<<< HEAD
-      <item itemvalue="Application.LongestIncreasingSubsequence" />
-      <item itemvalue="Application.JumpGame" />
-      <item itemvalue="Kotlin.com.zhangke.algorithms.KTestKt" />
-      <item itemvalue="Kotlin.com.zhangke.algorithms.RReaderKt" />
-      <item itemvalue="Kotlin.com.zhangke.algorithms.REntityKt" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.com.zhangke.algorithms.REntityKt" />
-        <item itemvalue="Kotlin.com.zhangke.algorithms.RReaderKt" />
-        <item itemvalue="Kotlin.com.zhangke.algorithms.KTestKt" />
-        <item itemvalue="Application.JumpGame" />
-        <item itemvalue="Application.LongestIncreasingSubsequence" />
-=======
       <item itemvalue="Application.FirstMissingPositive" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CoinChange" />
       <item itemvalue="Kotlin.com.zhangke.algorithms.KotlinMainKt" />
       <item itemvalue="Kotlin.com.zhangke.algorithms.KTestKt" />
-      <item itemvalue="Application.CoinChange" />
     </list>
     <recent_temporary>
       <list>
@@ -313,7 +292,6 @@
         <item itemvalue="Kotlin.com.zhangke.algorithms.KTestKt" />
         <item itemvalue="Kotlin.com.zhangke.algorithms.KotlinMainKt" />
         <item itemvalue="Application.FirstMissingPositive" />
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
       </list>
     </recent_temporary>
   </component>
@@ -351,9 +329,6 @@
       <workItem from="1560226495034" duration="3865000" />
       <workItem from="1560231463291" duration="2506000" />
       <workItem from="1580022891390" duration="16300000" />
-      <workItem from="1590068842409" duration="1859000" />
-      <workItem from="1593843934722" duration="2012000" />
-      <workItem from="1594432485280" duration="27241000" />
     </task>
     <task id="LOCAL-00020" summary="完成最长公共前缀">
       <created>1563433541050</created>
@@ -710,8 +685,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-<<<<<<< HEAD
-=======
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
@@ -774,7 +747,6 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -794,6 +766,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -844,92 +822,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="744" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1594652356751">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="744" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594652356751" />
-    <state width="518" height="589" key="DebuggerActiveHint" timestamp="1594654852275">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="518" height="589" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1594654852275" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593844818954">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587385798735" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593844818954" />
-    <state width="1877" height="401" key="GridCell.Tab.0.bottom" timestamp="1594914778759">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="401" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
-    <state width="1877" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778759" />
-    <state width="1877" height="401" key="GridCell.Tab.0.center" timestamp="1594914778758">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="401" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
-    <state width="1877" height="401" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778758" />
-    <state width="1877" height="401" key="GridCell.Tab.0.left" timestamp="1594914778757">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="401" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
-    <state width="1877" height="401" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778757" />
-    <state width="1877" height="401" key="GridCell.Tab.0.right" timestamp="1594914778759">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="401" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
-    <state width="1877" height="401" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778759" />
-    <state width="1877" height="401" key="GridCell.Tab.1.bottom" timestamp="1594914778762">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="401" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
-    <state width="1877" height="401" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778762" />
-    <state width="1877" height="401" key="GridCell.Tab.1.center" timestamp="1594914778762">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="401" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
-    <state width="1877" height="401" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778762" />
-    <state width="1877" height="401" key="GridCell.Tab.1.left" timestamp="1594914778761">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="401" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
-    <state width="1877" height="401" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778761" />
-    <state width="1877" height="401" key="GridCell.Tab.1.right" timestamp="1594914778762">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="401" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587385829335" />
-    <state width="1877" height="401" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594914778762" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594650690937">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594650690937" />
-    <state x="178" y="23" key="new project wizard" timestamp="1587385826892">
+    <state width="414" height="466" key="DebuggerActiveHint" timestamp="1580051091766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1587385826892" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594544836679">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="414" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1580051091766" />
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom" timestamp="1580126832181">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594544836679" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/PerfectSquares.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/JumpGame.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/JumpGame.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
+    <state width="1493" height="296" key="GridCell.Tab.0.center" timestamp="1580126832181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
+    <state width="1493" height="296" key="GridCell.Tab.0.left" timestamp="1580126832181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
+    <state width="1493" height="296" key="GridCell.Tab.0.right" timestamp="1580126832181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580126832181" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1580125944812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1580125944812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1580125944812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1580125944812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580125944812" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1580126143825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580126143825" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1001,8 +933,6 @@
       </expression>
     </expressions>
   </component>
-<<<<<<< HEAD
-=======
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/io/FileReadWrite.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1205,7 +1135,6 @@
       </provider>
     </entry>
   </component>
->>>>>>> ddf11bcd620544f48a006dc1fbf056ce61fa659f
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
