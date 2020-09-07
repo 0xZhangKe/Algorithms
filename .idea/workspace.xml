@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="添加注释">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MaximumSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestIncreasingSubsequence.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,26 +50,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="368">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestIncreasingSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="53">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MaximumSubarray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -107,7 +116,14 @@
       <find>[2,2,2,2,3,7]</find>
       <find>数独</find>
       <find>Illegal</find>
+      <find>longest-increasing-subsequence</find>
+      <find>最长上升</find>
+      <find>最长上升子序列</find>
+      <find>最大</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\QT\Desktop\FIles\MineCode\Algorithms\src\com\zhangke\algorithms\leetcode</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,9 +136,12 @@
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/KTest.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/ResValueNode.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/ResValueTransformer.kt" />
-        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MaximumSubarray.java" />
       </list>
     </option>
   </component>
@@ -139,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -146,6 +166,11 @@
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -169,7 +194,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -212,22 +236,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CoinChange">
+  <component name="RunManager" selected="Application.MaximumSubarray">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.CoinChange" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.FirstMissingPositive" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -252,6 +263,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.MaximumSubarray" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.zhangke.algorithms.KTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="VM_PARAMETERS" />
@@ -265,33 +289,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.zhangke.algorithms.KotlinMainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.zhangke.algorithms.leetcode.Util" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.KotlinMainKt" />
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.Util" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FirstMissingPositive" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CoinChange" />
-      <item itemvalue="Kotlin.com.zhangke.algorithms.KotlinMainKt" />
       <item itemvalue="Kotlin.com.zhangke.algorithms.KTestKt" />
+      <item itemvalue="Kotlin.com.zhangke.algorithms.leetcode.Util" />
+      <item itemvalue="Application.MaximumSubarray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.MaximumSubarray" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Kotlin.com.zhangke.algorithms.leetcode.Util" />
+        <item itemvalue="Application.CoinChange" />
         <item itemvalue="Kotlin.com.zhangke.algorithms.KTestKt" />
-        <item itemvalue="Kotlin.com.zhangke.algorithms.KotlinMainKt" />
-        <item itemvalue="Application.FirstMissingPositive" />
       </list>
     </recent_temporary>
   </component>
@@ -689,7 +713,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22331567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -705,7 +729,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32935154" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.36177474" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -772,7 +796,14 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
-              <option name="COLUMN_ORDER" />
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -1040,13 +1071,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/res.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/res.kt" />
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/generated/_Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1075,37 +1100,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/ResValueTransformer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/ResValueNode.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#32#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/KotlinMain.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1594">
-          <caret line="81" column="82" lean-forward="true" selection-start-line="81" selection-start-column="82" selection-end-line="81" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/KTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/ResValueTransformer.kt" />
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/ResValueNode.kt" />
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/KotlinMain.kt" />
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/KTest.kt" />
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CombinationSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1113,24 +1111,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange.kt" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="228">
+          <caret line="1002" column="41" lean-forward="true" selection-start-line="1002" selection-start-column="41" selection-end-line="1002" selection-end-column="41" />
+          <folding>
+            <element signature="e#39842#39847#0" expanded="true" />
+            <element signature="e#39847#39852#0" expanded="true" />
+            <element signature="e#39868#39873#0" expanded="true" />
+            <element signature="e#39873#39878#0" expanded="true" />
+            <element signature="e#40091#40096#0" expanded="true" />
+            <element signature="e#40096#40101#0" expanded="true" />
+            <element signature="e#40117#40122#0" expanded="true" />
+            <element signature="e#40122#40127#0" expanded="true" />
+            <element signature="e#40340#40345#0" expanded="true" />
+            <element signature="e#40345#40350#0" expanded="true" />
+            <element signature="e#40368#40373#0" expanded="true" />
+            <element signature="e#40373#40378#0" expanded="true" />
+            <element signature="e#40396#40401#0" expanded="true" />
+            <element signature="e#40401#40406#0" expanded="true" />
+            <element signature="e#40424#40429#0" expanded="true" />
+            <element signature="e#40429#40434#0" expanded="true" />
+            <element signature="e#40452#40457#0" expanded="true" />
+            <element signature="e#40457#40462#0" expanded="true" />
+            <element signature="e#40672#40676#0" expanded="true" />
+            <element signature="e#40678#40683#0" expanded="true" />
+            <element signature="e#40683#40688#0" expanded="true" />
+            <element signature="e#40706#40711#0" expanded="true" />
+            <element signature="e#40711#40716#0" expanded="true" />
+            <element signature="e#40734#40739#0" expanded="true" />
+            <element signature="e#40739#40744#0" expanded="true" />
+            <element signature="e#40762#40767#0" expanded="true" />
+            <element signature="e#40767#40772#0" expanded="true" />
+            <element signature="e#40790#40795#0" expanded="true" />
+            <element signature="e#40795#40800#0" expanded="true" />
+            <element signature="e#40817#40822#0" expanded="true" />
+            <element signature="e#40822#40827#0" expanded="true" />
+            <element signature="e#41037#41041#0" expanded="true" />
+            <element signature="e#41043#41048#0" expanded="true" />
+            <element signature="e#41048#41053#0" expanded="true" />
+            <element signature="e#41071#41076#0" expanded="true" />
+            <element signature="e#41076#41081#0" expanded="true" />
+            <element signature="e#41099#41104#0" expanded="true" />
+            <element signature="e#41104#41109#0" expanded="true" />
+            <element signature="e#41127#41132#0" expanded="true" />
+            <element signature="e#41132#41137#0" expanded="true" />
+            <element signature="e#41155#41160#0" expanded="true" />
+            <element signature="e#41160#41165#0" expanded="true" />
+            <element signature="e#41182#41187#0" expanded="true" />
+            <element signature="e#41187#41192#0" expanded="true" />
+            <element signature="e#41402#41406#0" expanded="true" />
+            <element signature="e#41408#41413#0" expanded="true" />
+            <element signature="e#41413#41418#0" expanded="true" />
+            <element signature="e#41436#41441#0" expanded="true" />
+            <element signature="e#41441#41446#0" expanded="true" />
+            <element signature="e#41464#41469#0" expanded="true" />
+            <element signature="e#41469#41474#0" expanded="true" />
+            <element signature="e#41492#41497#0" expanded="true" />
+            <element signature="e#41497#41502#0" expanded="true" />
+            <element signature="e#41520#41525#0" expanded="true" />
+            <element signature="e#41525#41530#0" expanded="true" />
+            <element signature="e#41745#41750#0" expanded="true" />
+            <element signature="e#41750#41755#0" expanded="true" />
+            <element signature="e#41773#41778#0" expanded="true" />
+            <element signature="e#41778#41783#0" expanded="true" />
+            <element signature="e#41801#41806#0" expanded="true" />
+            <element signature="e#41806#41811#0" expanded="true" />
+            <element signature="e#41829#41834#0" expanded="true" />
+            <element signature="e#41834#41839#0" expanded="true" />
+            <element signature="e#42046#42051#0" expanded="true" />
+            <element signature="e#42051#42056#0" expanded="true" />
+            <element signature="e#42264#42269#0" expanded="true" />
+            <element signature="e#42269#42274#0" expanded="true" />
+            <element signature="e#42290#42295#0" expanded="true" />
+            <element signature="e#42295#42300#0" expanded="true" />
+            <element signature="e#42316#42321#0" expanded="true" />
+            <element signature="e#42321#42326#0" expanded="true" />
+            <element signature="e#42342#42347#0" expanded="true" />
+            <element signature="e#42347#42352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/util.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="368">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="322">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MaximumSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
