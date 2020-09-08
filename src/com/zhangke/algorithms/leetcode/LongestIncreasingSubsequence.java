@@ -1,7 +1,5 @@
 package com.zhangke.algorithms.leetcode;
 
-import java.util.Arrays;
-
 /**
  * 300. 最长上升子序列
  * https://leetcode-cn.com/problems/longest-increasing-subsequence/
