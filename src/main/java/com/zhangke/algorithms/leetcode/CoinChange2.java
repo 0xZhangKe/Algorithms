@@ -8,7 +8,7 @@ package com.zhangke.algorithms.leetcode;
 public class CoinChange2 {
 
     public int change(int amount, int[] coins) {
-
+        return 0;
     }
 
     public static void main(String[] args) {
