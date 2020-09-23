@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="添加注释">
-      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange2.java" afterDir="false" />
+    <list default="true" id="3e07edcc-d726-46e0-bfcb-c8aaef4b93f1" name="Default" comment="添加零钱兑换 II">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange2.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,64 +51,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/test.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestIncreasingSubsequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestValidParentheses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="92">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange2.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="385">
+              <caret line="269" column="18" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MaximumSubarray.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/Condition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="186">
+              <caret line="467" column="9" selection-start-line="467" selection-start-column="9" selection-end-line="467" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestCommonPrefix.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="71">
+              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
             </state>
           </provider>
         </entry>
@@ -114,8 +101,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -156,7 +143,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/test.kt" />
         <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange2.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java" />
       </list>
     </option>
   </component>
@@ -191,19 +180,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -216,11 +198,11 @@
     <property name="SearchEverywhereHistoryKey" value="HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/zhangke/algorithms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -246,9 +228,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PartitionEqualSubsetSum">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.CoinChange" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CoinChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.CoinChange2" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -299,33 +281,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.zhangke.algorithms.leetcode.Util" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.Util" />
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.TestKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CoinChange2" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.CoinChange" />
       <item itemvalue="Application.MaximumSubarray" />
       <item itemvalue="Application.PartitionEqualSubsetSum" />
-      <item itemvalue="Kotlin.com.zhangke.algorithms.leetcode.Util" />
+      <item itemvalue="Kotlin.TestKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CoinChange2" />
+        <item itemvalue="Kotlin.TestKt" />
         <item itemvalue="Application.PartitionEqualSubsetSum" />
         <item itemvalue="Application.MaximumSubarray" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Kotlin.com.zhangke.algorithms.leetcode.Util" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -376,13 +358,6 @@
       <workItem from="1560231463291" duration="2506000" />
       <workItem from="1580022891390" duration="16300000" />
       <workItem from="1599566621514" duration="3524000" />
-    </task>
-    <task id="LOCAL-00020" summary="完成最长公共前缀">
-      <created>1563433541050</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1563433541050</updated>
     </task>
     <task id="LOCAL-00021" summary="添加三数之和">
       <created>1563505981414</created>
@@ -720,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590113936059</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="添加零钱兑换 II">
+      <created>1599717887839</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1599717887840</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TodoView">
@@ -735,8 +717,8 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2308857" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49488056" visible="true" weight="0.20439062" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.50511944" side_tool="true" visible="true" weight="0.20439062" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -744,37 +726,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4112628" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43515357" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32935154" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.36177474" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="leetcode" order="4" side_tool="true" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29180887" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50341296" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -791,7 +744,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -840,7 +793,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add kotlin support lib" />
     <MESSAGE value="完成两两交换链表中的节点" />
     <MESSAGE value="完成 K 个一组翻转链表" />
     <MESSAGE value="完成 删除排序数组中的重复项" />
@@ -865,9 +817,14 @@
     <MESSAGE value="完成 全排列" />
     <MESSAGE value="完成 缺失的第一个正数" />
     <MESSAGE value="添加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
+    <MESSAGE value="添加零钱兑换 II" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加零钱兑换 II" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="363" y="90" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599804888524">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="90" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1599804888524" />
     <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1599576921146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -972,38 +929,159 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/MaximumSubarray.java">
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/generated/_Ranges.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="122">
+          <caret line="550" column="21" selection-start-line="550" selection-start-column="21" selection-end-line="550" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestCommonPrefix.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="462">
+          <caret line="2938" column="25" selection-start-line="2938" selection-start-column="25" selection-end-line="2938" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestIncreasingSubsequence.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="186">
+          <caret line="2064" column="16" selection-start-line="2064" selection-start-column="11" selection-end-line="2064" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/LongestValidParentheses.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/test.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/leetcode/CoinChange2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="15" />
+        <state>
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
+          <folding>
+            <element signature="e#5079#5080#0" expanded="true" />
+            <element signature="e#5144#5145#0" expanded="true" />
+            <element signature="e#14090#14091#0" expanded="true" />
+            <element signature="e#14125#14126#0" expanded="true" />
+            <element signature="e#15891#15892#0" expanded="true" />
+            <element signature="e#15925#15926#0" expanded="true" />
+            <element signature="e#16316#16317#0" expanded="true" />
+            <element signature="e#16343#16344#0" expanded="true" />
+            <element signature="e#16779#16780#0" expanded="true" />
+            <element signature="e#16815#16816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="303" column="30" selection-start-line="303" selection-start-column="30" selection-end-line="303" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="232" column="26" selection-start-line="232" selection-start-column="26" selection-end-line="232" selection-end-column="26" />
+          <folding>
+            <element signature="e#8176#8177#0" expanded="true" />
+            <element signature="e#8216#8217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="514" lean-forward="true" selection-start-line="514" selection-end-line="514" />
+          <folding>
+            <element signature="e#22675#22676#0" expanded="true" />
+            <element signature="e#22703#22704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangke/algorithms/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/BlockingDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="199" column="49" lean-forward="true" selection-start-line="199" selection-start-column="49" selection-end-line="199" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="183" column="42" lean-forward="true" selection-start-line="183" selection-start-column="42" selection-end-line="183" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ConcurrentLinkedDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+          <folding>
+            <element signature="e#13372#13373#0" expanded="true" />
+            <element signature="e#13458#13459#0" expanded="true" />
+            <element signature="e#35297#35298#0" expanded="true" />
+            <element signature="e#35349#35350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="467" column="9" selection-start-line="467" selection-start-column="9" selection-end-line="467" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="269" column="18" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
         </state>
       </provider>
     </entry>
