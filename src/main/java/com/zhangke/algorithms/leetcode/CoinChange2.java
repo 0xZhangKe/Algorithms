@@ -8,17 +8,7 @@ package com.zhangke.algorithms.leetcode;
 public class CoinChange2 {
 
     public int change(int amount, int[] coins) {
-        int[] dp = new int[amount + 1];
-        dp[0] = 1;
-
-        for (int coin : coins) {
-            System.out.println("coin:" + coin);
-            for (int x = coin; x < amount + 1; ++x) {
-                System.out.println("    x:" + x + ", x - coin = " + (x - coin));
-                dp[x] += dp[x - coin];
-            }
-        }
-        return dp[amount];
+        return 0;
     }
 
     public static void main(String[] args) {
