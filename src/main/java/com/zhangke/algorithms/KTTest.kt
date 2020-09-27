@@ -3,27 +3,10 @@ package com.zhangke.algorithms
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.functions.BiFunction
-import java.util.concurrent.LinkedBlockingDeque
 
-fun main(){
-    val queue = LinkedBlockingDeque<Int>()
-    Thread{
-        while (true){
-            val v = queue.takeFirst()
-            println(v)
-        }
-    }.start()
-    Thread{
-        for(i in 0 .. 10){
-            Thread.sleep(200)
-            queue.offerFirst(i)
-        }
-    }.start()
-}
-
-fun main1() {
+fun main() {
     val firstSource = getObs().toObservable()
-    val secondSource = Observable.create<Int> { it.onNext(20) }
+    val secondSource = Observable.create<Int> { it.onError(java.lang.RuntimeException("111")) }
     val zipper = BiFunction<Int, Int, Int> { p1, p2 -> p1 + p2 }
     Observable.zip(firstSource, secondSource, zipper)
         .subscribe({
