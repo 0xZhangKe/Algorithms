@@ -16,7 +16,8 @@ tasks.withType(JavaCompile) {
 }
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation "io.reactivex.rxjava3:rxjava:3.0.6"
+    implementation "io.reactivex.rxjava3:rxjava:3.0.9"
+    implementation 'com.google.code.gson:gson:2.8.6'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 

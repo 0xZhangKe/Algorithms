@@ -1,7 +1,5 @@
 package com.zhangke.algorithms.leetcode;
 
-import java.util.Arrays;
-
 /**
  * 72. 编辑距离
  * https://leetcode-cn.com/problems/edit-distance/
@@ -12,14 +10,20 @@ public class EditDistance {
     public int minDistance(String word1, String word2) {
         int m = word1.length(), n = word2.length();
         int[][] dp = new int[m][n];
+        for (int i = 0; i < m; i++)
+            dp[i][0] = i;
+        for (int j = 0; j < n; j++)
+            dp[0][j] = j;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                int lastStepValue = i > 0 ? dp[i - 1][j] : 0;
+                int lastStepValue = i > 0 && j > 0 ? dp[i - 1][j - 1] : 0;
                 if (word1.charAt(i) == word2.charAt(j)) {
                     dp[i][j] = lastStepValue;
                 } else {
                     dp[i][j] = min(
-
+                            (i > 0 ? dp[i - 1][j] : 0) + 1,
+                            (j > 0 ? dp[i][j - 1] : 0) + 1,
+                            lastStepValue + 1
                     );
                 }
             }
@@ -33,6 +37,6 @@ public class EditDistance {
 
     public static void main(String[] args) {
         EditDistance ed = new EditDistance();
-        System.out.println(ed.minDistance("horse", "ros"));
+        System.out.println(ed.minDistance("intention", "execution"));
     }
 }
