@@ -12,27 +12,27 @@ public class PartitionList {
         ListNode curParent = null;
         ListNode newHead = null;
         while (cur != null) {
-            if (cur.val >= x) {
+            if (cur.getValue() >= x) {
                 ListNode tmpParent = cur;
-                ListNode tmpCur = cur.next;
-                while (tmpCur != null && tmpCur.val >= x) {
+                ListNode tmpCur = cur.getNext();
+                while (tmpCur != null && tmpCur.getValue() >= x) {
                     tmpParent = tmpCur;
-                    tmpCur = tmpCur.next;
+                    tmpCur = tmpCur.getNext();
                 }
                 if (tmpCur == null) {
                     if (newHead == null) newHead = head;
                     break;
                 }
-                tmpParent.next = tmpCur.next;
+                tmpParent.setNext(tmpCur.getNext());
                 if (curParent != null) {
-                    curParent.next = tmpCur;
+                    curParent.setNext(tmpCur);
                 }
-                tmpCur.next = cur;
+                tmpCur.setNext(cur);
                 cur = tmpCur;
             }
             curParent = cur;
             if (newHead == null) newHead = cur;
-            cur = cur.next;
+            cur = cur.getNext();
         }
         return newHead;
     }
@@ -44,39 +44,8 @@ public class PartitionList {
         ListNode three = new ListNode(3, two2);
         ListNode four = new ListNode(4, three);
         ListNode head = new ListNode(7, four);
-//        ListNode head = new ListNode(1);
         PartitionList pl = new PartitionList();
-        System.out.println("input:" + head.print());
-        System.out.println("output:" + pl.partition(head, 3).print());
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-
-        public String print() {
-            StringBuilder sb = new StringBuilder();
-            ListNode curNode = this;
-            while (curNode != null) {
-                sb.append(curNode.val);
-                curNode = curNode.next;
-                if (curNode != null) {
-                    sb.append("->");
-                }
-            }
-            return sb.toString();
-        }
+        Util.printNode(head);
+        Util.printNode(pl.partition(head, 3));
     }
 }
