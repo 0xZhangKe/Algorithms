@@ -12,24 +12,23 @@ public class LinkedListCycleII {
 
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head;
-        ListNode fast = nextNextNode(slow);
-        ListNode cycleHead = null;
-        while (slow != null) {
+        ListNode fast = head;
+        while (fast != null) {
+            slow = slow.next;
+            if (fast.next == null) {
+                return null;
+            }
+            fast = nextNextNode(fast);
             if (fast == slow) {
-                slow = slow.next;
-                ListNode ptr = head.next;
+                ListNode ptr = head;
                 while (slow != ptr) {
                     slow = slow.next;
                     ptr = ptr.next;
                 }
-                cycleHead = ptr;
-                break;
-            } else {
-                slow = slow.next;
-                fast = nextNextNode(fast);
+                return ptr;
             }
         }
-        return cycleHead;
+        return null;
     }
 
     @Contract(value = "null -> null", pure = true)
