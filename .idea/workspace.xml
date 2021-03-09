@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8687d408-d871-4a98-9fa2-4061f5905532" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/LinkedListCycleII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/LinkedListCycleII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/FindDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/FindDuplicateNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,71 +44,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/KTTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/genetic/Robbie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/FindDuplicateNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-              <folding>
-                <element signature="e#264#265#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/util.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/LinkedListCycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/LinkedListCycleII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/data/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,10 +99,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/genetic/Robbie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/PartitionList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/FindDuplicateNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/LinkedListCycle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/data/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/LinkedListCycleII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/FindDuplicateNumber.java" />
       </list>
     </option>
   </component>
@@ -175,7 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -232,6 +180,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -269,10 +218,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListCycleII">
+  <component name="RunManager" selected="Application.FindDuplicateNumber">
     <configuration default="true" type="AndroidJUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.FindDuplicateNumber" />
+      <module name="Algorithms.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -296,19 +258,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.Main" />
-      <module name="Algorithms.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDuplicateNumber" />
         <item itemvalue="Application.LinkedListCycleII" />
         <item itemvalue="Application.LinkedListCycle" />
         <item itemvalue="Application.PartitionList" />
         <item itemvalue="Kotlin.com.zhangke.algorithms.KTTestKt" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -420,14 +369,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615182317306</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="通过双指针完成循环链表二">
+      <created>1615203634220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615203634220</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829352" visible="true" weight="0.1728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829352" visible="true" weight="0.17653333" />
       <window_info id="Structure" order="1" sideWeight="0.5017065" side_tool="true" weight="0.25738078" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -443,7 +399,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32935154" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32850778" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32850778" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32182628" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -457,6 +413,37 @@
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829352" visible="true" weight="0.17653333" />
+      <window_info id="Structure" order="1" sideWeight="0.5017065" side_tool="true" weight="0.25738078" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33407572" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3975501" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32935154" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32850778" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32850778" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32182628" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24981076" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="leetcode" order="4" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.329296" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32853332" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -507,7 +494,8 @@
     <MESSAGE value="完成 分隔链表" />
     <MESSAGE value="Add Robbie" />
     <MESSAGE value="完成循环链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成循环链表" />
+    <MESSAGE value="通过双指针完成循环链表二" />
+    <option name="LAST_COMMIT_MESSAGE" value="通过双指针完成循环链表二" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="116" key="CommitChangelistDialog2" timestamp="1600788250918">
@@ -564,13 +552,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/DC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8257">
@@ -748,27 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/FindDuplicateNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/util.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/LinkedListCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -782,13 +746,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/FindFLEleInSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/LinkedListCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/LinkedListCycleII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/FindDuplicateNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
