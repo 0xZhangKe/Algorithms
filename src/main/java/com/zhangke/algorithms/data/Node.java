@@ -56,6 +56,37 @@ public class Node {
         return builder.toString();
     }
 
+    public String getRevertLinearDesc() {
+        StringBuilder builder = new StringBuilder();
+        Node curNode = getTail(this);
+        Set<Node> nodeSet = new HashSet<>();
+        while (curNode != null) {
+            if (nodeSet.contains(curNode)) {
+                break;
+            }
+            nodeSet.add(curNode);
+            builder.append(curNode.val);
+            curNode = curNode.prev;
+            if (curNode != null) {
+                builder.append("->");
+            }
+        }
+        return builder.toString();
+    }
+
+    private Node getTail(Node head) {
+        Set<Node> nodeSet = new HashSet<>();
+        Node curNode = head;
+        while (curNode.next != null) {
+            if (nodeSet.contains(curNode)) {
+                break;
+            }
+            nodeSet.add(curNode);
+            curNode = curNode.next;
+        }
+        return curNode;
+    }
+
     public String getAllDesc() {
         StringBuilder builder = new StringBuilder();
         Node curNode = this;
