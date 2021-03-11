@@ -75,6 +75,7 @@ public class FlattenMultilevelDoublyLinkedList {
 
         FlattenMultilevelDoublyLinkedList ff = new FlattenMultilevelDoublyLinkedList();
         Node result = ff.flatten(head);
-        System.out.println(result.getAllDesc());
+        System.out.println(result.getLinearDesc());
+        System.out.println(result.getRevertLinearDesc());
     }
 }
