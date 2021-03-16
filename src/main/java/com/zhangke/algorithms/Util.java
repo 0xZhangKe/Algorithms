@@ -3,7 +3,7 @@ package com.zhangke.algorithms;
 public class Util {
 
     public static void printArray(int[] array) {
-        if(array == null){
+        if (array == null) {
             System.out.println("array is null!");
             return;
         }
@@ -18,5 +18,16 @@ public class Util {
             }
         }
         System.out.print("]");
+    }
+
+    public static void printArray(int[][] array) {
+        if (array == null) {
+            System.out.println("array is null!");
+            return;
+        }
+        for (int[] ints : array) {
+            printArray(ints);
+            System.out.println();
+        }
     }
 }
