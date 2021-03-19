@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8687d408-d871-4a98-9fa2-4061f5905532" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MinimumNumberArrowsBurstBalloons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/SmallestStringWithGivenNumeric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/offer/FindNumberIn2DArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/Util.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,11 +68,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MinimumNumberArrowsBurstBalloons.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/SmallestStringWithGivenNumeric.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/offer/FindNumberIn2DArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-200">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#2466#2467#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="667">
               <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
             </state>
           </provider>
@@ -89,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="299">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -99,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -118,6 +143,7 @@
     <findStrings>
       <find>decode</find>
       <find>access</find>
+      <find>binarySearch</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,6 +177,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MinimumDeletionRepeatingLetters.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MinimumNumberArrowsBurstBalloons.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/SmallestStringWithGivenNumeric.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/offer/FindNumberIn2DArray.java" />
       </list>
     </option>
   </component>
@@ -161,8 +189,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1027" />
-    <option name="y" value="-17" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -214,15 +242,6 @@
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -267,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumNumberArrowsBurstBalloons">
+  <component name="RunManager" selected="Application.FindNumberIn2DArray">
     <configuration default="true" type="AndroidJUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -281,6 +300,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindNumberIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.offer.FindNumberIn2DArray" />
+      <module name="Algorithms.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,19 +346,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.ReverseLinkedList" />
-      <module name="Algorithms.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RotateList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.RotateList" />
       <module name="Algorithms.main" />
@@ -342,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindNumberIn2DArray" />
         <item itemvalue="Application.MinimumNumberArrowsBurstBalloons" />
         <item itemvalue="Application.MinimumDeletionRepeatingLetters" />
         <item itemvalue="Application.AddTwoNumbersII" />
         <item itemvalue="Application.RotateList" />
-        <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -453,14 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615518433908</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="完成 用最少数量的箭引爆气球">
+      <created>1615862329493</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615862329493</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829352" visible="true" weight="0.20426667" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829352" visible="true" weight="0.3005299" />
       <window_info id="Structure" order="1" sideWeight="0.5017065" side_tool="true" weight="0.25738078" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,7 +495,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33073497" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4641638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42316258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,7 +602,8 @@
     <MESSAGE value="添加扁平化多级双向链表" />
     <MESSAGE value="完成 两数相加 II，旋转链表，反转链表，扁平化多级双向链表" />
     <MESSAGE value="完成 避免重复字母的最小删除成本" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 避免重复字母的最小删除成本" />
+    <MESSAGE value="完成 用最少数量的箭引爆气球" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 用最少数量的箭引爆气球" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="116" key="CommitChangelistDialog2" timestamp="1600788250918">
@@ -633,20 +660,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Base64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="e#20766#20767#0" expanded="true" />
-            <element signature="e#20846#20847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.9/d1c43e836349b64cc4765a417d3ddf1fb5ccba4/rxjava-3.0.9-sources.jar!/io/reactivex/rxjava3/schedulers/Schedulers.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.9/d1c43e836349b64cc4765a417d3ddf1fb5ccba4/rxjava-3.0.9-sources.jar!/io/reactivex/rxjava3/core/ObservableSource.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.9/d1c43e836349b64cc4765a417d3ddf1fb5ccba4/rxjava-3.0.9-sources.jar!/io/reactivex/rxjava3/functions/Function.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.9/d1c43e836349b64cc4765a417d3ddf1fb5ccba4/rxjava-3.0.9-sources.jar!/io/reactivex/rxjava3/plugins/RxJavaPlugins.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.9/d1c43e836349b64cc4765a417d3ddf1fb5ccba4/rxjava-3.0.9-sources.jar!/io/reactivex/rxjava3/internal/operators/flowable/AbstractFlowableWithUpstream.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava3/rxjava/3.0.9/d1c43e836349b64cc4765a417d3ddf1fb5ccba4/rxjava-3.0.9-sources.jar!/io/reactivex/rxjava3/internal/operators/flowable/FlowableRetryWhen.java" />
@@ -854,25 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/AddTwoNumbersII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MinimumDeletionRepeatingLetters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/SortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -901,31 +895,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/SmallestStringWithGivenNumeric.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/AddTwoNumbersII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="1173">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/Util.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MinimumDeletionRepeatingLetters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MinimumNumberArrowsBurstBalloons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/SmallestStringWithGivenNumeric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/SearchInRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/offer/FindNumberIn2DArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#2466#2467#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
