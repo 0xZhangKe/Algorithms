@@ -1,7 +1,5 @@
 package com.zhangke.algorithms.leetcode;
 
-import com.zhangke.algorithms.Util;
-
 /**
  * Z 字形变换：https://leetcode-cn.com/problems/zigzag-conversion/
  * Created by ZhangKe on 2019/6/11.
