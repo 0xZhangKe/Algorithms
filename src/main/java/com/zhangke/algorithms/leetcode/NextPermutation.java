@@ -1,6 +1,5 @@
 package com.zhangke.algorithms.leetcode;
 
-import com.zhangke.algorithms.Util;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,6 +59,6 @@ public class NextPermutation {
         int[] nums = {1, 3, 2};
         NextPermutation nextPermutation = new NextPermutation();
         nextPermutation.nextPermutation(nums);
-        Util.printArray(nums);
+        Util.printIntArray(nums);
     }
 }

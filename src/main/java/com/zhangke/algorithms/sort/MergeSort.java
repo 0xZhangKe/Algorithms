@@ -1,6 +1,6 @@
 package com.zhangke.algorithms.sort;
 
-import com.zhangke.algorithms.Util;
+import com.zhangke.algorithms.leetcode.Util;
 
 /**
  * 归并排序
@@ -38,7 +38,7 @@ public class MergeSort implements Sortable{
      */
     private void merge(int[] data, int left, int center, int right) {
         System.out.println(String.format("->\nleft:%s,center:%s,right:%s\nbefore:", left, center, right));
-        Util.printArray(data);
+        Util.printIntArray(data);
         // 临时数组
         int[] tmpArr = new int[data.length];
         // 右数组第一个元素索引
@@ -68,7 +68,7 @@ public class MergeSort implements Sortable{
             data[tmp] = tmpArr[tmp++];
         }
         System.out.println("\nafter:");
-        Util.printArray(data);
+        Util.printIntArray(data);
         System.out.println("\n<-\n\n");
     }
 

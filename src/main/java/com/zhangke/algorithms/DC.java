@@ -1,5 +1,7 @@
 package com.zhangke.algorithms;
 
+import com.zhangke.algorithms.leetcode.Util;
+
 import java.util.List;
 import java.lang.Integer;
 
@@ -13,10 +15,7 @@ public class DC {
         }
         long start = System.currentTimeMillis();
         int[][] a = getMultipTable(array);
-        for (int[] item : a) {
-            Util.printArray(item);
-            System.out.print("\n");
-        }
+        Util.printNestedIntArray(a);
         System.out.println("\nspend:" + (System.currentTimeMillis() - start) + "ms");
     }
 

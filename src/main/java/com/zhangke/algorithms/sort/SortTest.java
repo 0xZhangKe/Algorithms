@@ -1,6 +1,7 @@
 package com.zhangke.algorithms.sort;
 
-import com.zhangke.algorithms.Util;
+
+import com.zhangke.algorithms.leetcode.Util;
 
 public class SortTest {
 
@@ -11,6 +12,6 @@ public class SortTest {
         long start = System.currentTimeMillis();
         sortable.sort(array);
         System.out.println("\nspend:" + (System.currentTimeMillis() - start) + "ms");
-        Util.printArray(array);
+        Util.printIntArray(array);
     }
 }

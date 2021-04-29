@@ -2,8 +2,6 @@
 
 package com.zhangke.algorithms.leetcode
 
-import java.lang.StringBuilder
-
 /**
  * Created by ZhangKe on 2019/9/12.
  */
@@ -80,7 +78,11 @@ fun printNestedList(list: List<List<*>>) {
     print("]")
 }
 
-fun printArray(array: IntArray) {
+fun <T> printNestedArray(array: Array<Array<T>>) {
+    array.forEach { printArray(it) }
+}
+
+fun <T> printArray(array: Array<T>) {
     val builder = StringBuilder()
     for (index in array.indices) {
         if (index == 0) {
@@ -94,4 +96,12 @@ fun printArray(array: IntArray) {
         }
     }
     println(builder.toString())
+}
+
+fun printNestedIntArray(array: Array<IntArray>) {
+    array.forEach { printIntArray(it) }
+}
+
+fun printIntArray(array: IntArray) {
+    printArray(array.toTypedArray())
 }
