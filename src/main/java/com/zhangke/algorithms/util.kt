@@ -1,6 +1,6 @@
 @file:JvmName("Util")
 
-package com.zhangke.algorithms.leetcode
+package com.zhangke.algorithms
 
 /**
  * Created by ZhangKe on 2019/9/12.
@@ -104,4 +104,9 @@ fun printNestedIntArray(array: Array<IntArray>) {
 
 fun printIntArray(array: IntArray) {
     printArray(array.toTypedArray())
+}
+
+fun ByteArray.read(start: Int, length: Int): ByteArray{
+    if(start + length > size) throw ArrayIndexOutOfBoundsException()
+    return copyOfRange(start, start + length)
 }

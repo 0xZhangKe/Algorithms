@@ -1,6 +1,8 @@
 package com.zhangke.algorithms.leetcode;
 
-import static com.zhangke.algorithms.leetcode.Util.printNode;
+import com.zhangke.algorithms.ListNode;
+
+import static com.zhangke.algorithms.Util.printNode;
 
 /**
  * 21. 合并两个有序链表:

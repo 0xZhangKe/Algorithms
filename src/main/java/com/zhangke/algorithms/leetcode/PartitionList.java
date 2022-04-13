@@ -1,5 +1,8 @@
 package com.zhangke.algorithms.leetcode;
 
+import com.zhangke.algorithms.ListNode;
+import com.zhangke.algorithms.Util;
+
 /**
  * 86. 分隔链表:
  * https://leetcode-cn.com/problems/partition-list/

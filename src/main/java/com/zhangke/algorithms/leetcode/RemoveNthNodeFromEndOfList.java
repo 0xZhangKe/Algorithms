@@ -1,7 +1,9 @@
 package com.zhangke.algorithms.leetcode;
 
-import static com.zhangke.algorithms.leetcode.Util.buildListNode;
-import static com.zhangke.algorithms.leetcode.Util.printNode;
+import com.zhangke.algorithms.ListNode;
+
+import static com.zhangke.algorithms.Util.buildListNode;
+import static com.zhangke.algorithms.Util.printNode;
 
 /**
  * 19. 删除链表的倒数第N个节点:

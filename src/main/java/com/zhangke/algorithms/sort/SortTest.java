@@ -1,7 +1,7 @@
 package com.zhangke.algorithms.sort;
 
 
-import com.zhangke.algorithms.leetcode.Util;
+import com.zhangke.algorithms.Util;
 
 public class SortTest {
 

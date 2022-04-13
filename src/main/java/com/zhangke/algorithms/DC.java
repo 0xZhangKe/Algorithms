@@ -1,7 +1,5 @@
 package com.zhangke.algorithms;
 
-import com.zhangke.algorithms.leetcode.Util;
-
 import java.util.List;
 import java.lang.Integer;
 

@@ -1,2 +1,4 @@
 /out
 /local.properties
+/build
+/.gradle

@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.kotlin.jvm' version '1.3.61'
+    id 'org.jetbrains.kotlin.jvm' version '1.6.20'
 }
 
 group 'org.example'
@@ -15,9 +15,13 @@ tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.6.20"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1'
+    implementation "com.squareup.okhttp3:okhttp:4.9.3"
     implementation "io.reactivex.rxjava3:rxjava:3.0.9"
     implementation 'com.google.code.gson:gson:2.8.6'
+    implementation("com.google.guava:guava:30.1.1-jre")
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 

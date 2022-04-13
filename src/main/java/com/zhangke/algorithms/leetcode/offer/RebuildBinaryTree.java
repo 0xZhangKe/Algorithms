@@ -9,10 +9,6 @@ import com.zhangke.algorithms.leetcode.adt.TreeNode;
  */
 public class RebuildBinaryTree {
 
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
-
-    }
-
     public static void main(String[] args){
         RebuildBinaryTree rebuilder = new RebuildBinaryTree();
     }
