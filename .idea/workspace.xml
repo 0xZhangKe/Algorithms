@@ -4,60 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8687d408-d871-4a98-9fa2-4061f5905532" name="Default Changelist" comment="完成 用最少数量的箭引爆气球">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/JsonUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/LimitedPriorityQueue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/LimitedQueue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/LimitedSortedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/SortedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/encode/AES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/encode/Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/encode/CipherTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/other/TaxUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithms.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8687d408-d871-4a98-9fa2-4061f5905532" name="Default Changelist" comment="complete ValidateBinarySearchTree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-reflect.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-test.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/DC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/DC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/KTTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/BinaryTreePostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/BinaryTreePostOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/BinaryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/BinaryTreePreorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/CombinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/CombinationSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/FindFLEleInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/FindFLEleInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/GenerateParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MergeKSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/NextPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/PartitionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/ReverseNodesInKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/SubstringConcatenationAllWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/SubstringConcatenationAllWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/Sum4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/Sum4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/SwapNodesInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/SwapNodesInPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/offer/RebuildBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/offer/RebuildBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/sort/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/util.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/util.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/adt/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/adt/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -157,7 +106,7 @@
       <recent name="com.zhangke.algorithms.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KTTestKt">
+  <component name="RunManager" selected="Application.TreeNode">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.Main" />
       <module name="Algorithms.main" />
@@ -171,9 +120,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CipherTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.encode.CipherTestKt" />
+    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.adt.TreeNode" />
       <module name="Algorithms.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.adt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.ValidateBinarySearchTree" />
+      <module name="Algorithms.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,20 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.zhangke.algorithms.graph.adt.tree.DFS" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.graph.adt.tree.DFS" />
-      <module name="Algorithms.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeNode" />
+        <item itemvalue="Application.ValidateBinarySearchTree" />
+        <item itemvalue="Kotlin.TaxUtilKt" />
         <item itemvalue="Kotlin.KTTestKt" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Kotlin.CipherTestKt" />
-        <item itemvalue="Kotlin.TaxUtilKt" />
-        <item itemvalue="Kotlin.com.zhangke.algorithms.graph.adt.tree.DFS" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615862329493</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="complete ValidateBinarySearchTree">
+      <created>1650082158534</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650082158534</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,20 +333,17 @@
     <MESSAGE value="完成 两数相加 II，旋转链表，反转链表，扁平化多级双向链表" />
     <MESSAGE value="完成 避免重复字母的最小删除成本" />
     <MESSAGE value="完成 用最少数量的箭引爆气球" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 用最少数量的箭引爆气球" />
+    <MESSAGE value="complete ValidateBinarySearchTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete ValidateBinarySearchTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.0/4a5e4f984e6c3e380f100857f04aba4f3e5fbda8/kotlin-stdlib-1.4.0-sources.jar!/kotlin/io/Closeable.kt</url>
-          <line>56</line>
-          <option name="timeStamp" value="5" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/adt/TreeNode.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="6" />
-        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
