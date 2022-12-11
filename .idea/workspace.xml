@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8687d408-d871-4a98-9fa2-4061f5905532" name="Default Changelist" comment="complete ValidateBinarySearchTree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MaximumNumberOfRemovableCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/adt/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/adt/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,13 +109,13 @@
       <recent name="com.zhangke.algorithms.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeNode">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.Main" />
+  <component name="RunManager" selected="Application.MaximumNumberOfRemovableCharacters">
+    <configuration name="MaximumNumberOfRemovableCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.MaximumNumberOfRemovableCharacters" />
       <module name="Algorithms.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangke.algorithms.*" />
+          <option name="PATTERN" value="com.zhangke.algorithms.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumNumberOfRemovableCharacters" />
         <item itemvalue="Application.TreeNode" />
         <item itemvalue="Application.ValidateBinarySearchTree" />
         <item itemvalue="Kotlin.TaxUtilKt" />
         <item itemvalue="Kotlin.KTTestKt" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
