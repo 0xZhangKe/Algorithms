@@ -2,3 +2,5 @@
 /build
 /.gradle
 /local.properties
+/.idea
+git_email_fix.sh
