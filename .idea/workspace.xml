@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8687d408-d871-4a98-9fa2-4061f5905532" name="Default Changelist" comment="56. 合并区间">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/UniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/leetcode/MinimumPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/KotlinTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangke/algorithms/KotlinTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
       <recent name="com.zhangke.algorithms.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniquePaths">
+  <component name="RunManager" selected="Application.MinimumPathSum">
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.GroupAnagrams" />
       <module name="Algorithms.main" />
@@ -128,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegularExpressionMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.RegularExpressionMatching" />
+    <configuration name="MinimumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangke.algorithms.leetcode.MinimumPathSum" />
       <module name="Algorithms.main" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumPathSum" />
+        <item itemvalue="Kotlin.KotlinTestKt" />
         <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.RegularExpressionMatching" />
-        <item itemvalue="Kotlin.KotlinTestKt" />
       </list>
     </recent_temporary>
   </component>
