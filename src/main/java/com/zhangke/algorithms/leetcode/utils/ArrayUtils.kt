@@ -22,4 +22,8 @@ object ArrayUtils {
             }
         }.let { println(it) }
     }
+
+    fun printArray(array: IntArray) {
+        println("[${array.joinToString(",")}]")
+    }
 }
