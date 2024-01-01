@@ -2,7 +2,7 @@ package com.zhangke.algorithms.leetcode.utils
 
 object ListUtils {
 
-    fun printList(list: List<List<String>>) {
+    fun printList(list: List<List<Any>>) {
         val builder = StringBuilder()
         builder.append('[')
         list.forEach {
