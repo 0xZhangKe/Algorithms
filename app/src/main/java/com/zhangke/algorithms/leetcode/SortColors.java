@@ -1,7 +1,6 @@
 package com.zhangke.algorithms.leetcode;
 
 import com.zhangke.algorithms.leetcode.utils.ArrayUtils;
-import kotlin.text.StringsKt;
 
 /**
  * 75. 颜色分类

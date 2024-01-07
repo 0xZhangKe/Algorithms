@@ -1,7 +1,5 @@
 package com.zhangke.algorithms;
 
-import com.zhangke.algorithms.leetcode.utils.ArrayUtils;
-
 public class FindMaxNumbers {
 
     public static void main(String[] args) {

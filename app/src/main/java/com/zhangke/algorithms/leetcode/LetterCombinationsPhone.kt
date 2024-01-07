@@ -1,8 +1,6 @@
 package com.zhangke.algorithms.leetcode
 
-import java.lang.Exception
 import java.lang.StringBuilder
-import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 

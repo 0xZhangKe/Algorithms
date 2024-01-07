@@ -145,7 +145,7 @@ interface DateParser {
 /**
  * DOS-2015-04-04 19_25_19Z
  */
-class StringDateDividerParser: DateParser{
+class StringDateDividerParser: DateParser {
 
     private val regex = "[0-9]{4}-[0-9]{2}-[0-9]{2}.[0-9]{2}_[0-9]{2}".toRegex()
     private val format = SimpleDateFormat("yyyy-MM-dd-HH_mm")
@@ -162,7 +162,7 @@ class StringDateDividerParser: DateParser{
  * xxx20161223_010xxx.jpg
  * WP_20130921_004
  */
-class StringDateCountParser: DateParser{
+class StringDateCountParser: DateParser {
 
     private val regex = "[0-9]{8}_[0-9]{3}".toRegex()
     private val format = SimpleDateFormat("yyyyMMdd")
@@ -177,7 +177,7 @@ class StringDateCountParser: DateParser{
 /**
  * xxx20161223xxx220301xxx.jpg
  */
-class StringDateParser: DateParser{
+class StringDateParser: DateParser {
 
     private val regex = "[0-9]{8}.*[0-9]{6}".toRegex()
     private val format = SimpleDateFormat("yyyyMMdd-HHmmss")
@@ -193,7 +193,7 @@ class StringDateParser: DateParser{
 /**
  * xxxxx1643180090066xxxxx.jpg
  */
-class TimestampDateParser: DateParser{
+class TimestampDateParser: DateParser {
 
     private val regex = "[0-9]{13}".toRegex()
 

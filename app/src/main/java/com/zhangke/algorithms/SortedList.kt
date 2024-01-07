@@ -1,6 +1,5 @@
 package com.zhangke.algorithms
 
-import java.util.*
 import kotlin.collections.ArrayList
 
 class SortedList<E : Comparable<E>>() : AbstractMutableList<E>() {

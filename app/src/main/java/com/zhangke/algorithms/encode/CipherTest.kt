@@ -29,13 +29,13 @@ private fun encode(text: String, aesKey: String): String {
     val cipher = Cipher.getInstance("AES/ECB/PKCS5Padding")
     cipher.init(Cipher.ENCRYPT_MODE, key)
     val a = cipher.doFinal(text.toByteArray(Charsets.UTF_8))
-    return Base64.encodeToString(a, Base64.NO_WRAP)
+    return com.zhangke.algorithms.encode.Base64.encodeToString(a, com.zhangke.algorithms.encode.Base64.NO_WRAP)
 }
 
 private fun decode(text: String, aesKey: String): String {
     val key = SecretKeySpec(aesKey.toByteArray(), "AES")
     val cipher = Cipher.getInstance("AES/ECB/PKCS5Padding")
     cipher.init(Cipher.DECRYPT_MODE, key)
-    val base64Decoded = Base64.decode(text, Base64.NO_WRAP)
+    val base64Decoded = com.zhangke.algorithms.encode.Base64.decode(text, com.zhangke.algorithms.encode.Base64.NO_WRAP)
     return String(cipher.doFinal(base64Decoded), Charsets.UTF_8)
 }

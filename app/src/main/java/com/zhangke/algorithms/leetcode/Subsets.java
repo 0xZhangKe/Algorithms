@@ -3,9 +3,7 @@ package com.zhangke.algorithms.leetcode;
 import com.zhangke.algorithms.leetcode.utils.ListUtils;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.function.Consumer;
 
 /**
  * 78. 子集
