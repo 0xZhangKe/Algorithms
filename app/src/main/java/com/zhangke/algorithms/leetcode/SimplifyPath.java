@@ -1,5 +1,6 @@
 package com.zhangke.algorithms.leetcode;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,7 +22,7 @@ public class SimplifyPath {
         List<String> dirNameList = new ArrayList<>();
         String[] array = path.split("/");
         for (String name : array) {
-            if (name.isBlank() || name.isEmpty()) continue;
+            if (name.isEmpty()) continue;
             StringBuilder builder = new StringBuilder();
             for (char c : name.toCharArray()) {
                 if (c != '/') {
