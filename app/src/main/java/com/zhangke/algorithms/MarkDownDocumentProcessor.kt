@@ -7,7 +7,7 @@ import java.net.URLEncoder
 fun main() {
     val processor = MarkDownDocumentProcessor()
     val dir =
-        File("/Users/zhangke/Downloads/68bfb981-d555-4904-80f3-a29c5ff7d3d1_Export-cc131e75-c582-40a5-961e-261c16e9e8af")
+        File("/Users/zhangke/Downloads/travel-to-japan")
     processor.processImage(dir, "travel-to-japan")
 }
 
@@ -60,7 +60,7 @@ class MarkDownDocumentProcessor {
             val imageNote = findImageNoteFromExpression(expression)
             if (imageNote.isNullOrEmpty().not()) {
                 val fixedNote = fixImageNote(imageNote!!)
-                fixedExpression = fixedExpression.replace(imageNote, fixedNote)
+                fixedExpression = fixedExpression.replaceFirst(imageNote, fixedNote)
             }
             val imagePath = findImagePath(expression)
             if (imagePath.isNullOrEmpty().not()) {
