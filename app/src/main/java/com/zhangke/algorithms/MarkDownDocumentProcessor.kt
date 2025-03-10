@@ -6,9 +6,8 @@ import java.net.URLEncoder
 
 fun main() {
     val processor = MarkDownDocumentProcessor()
-    val dir =
-        File("/Users/zhangke/Downloads/travel-to-japan")
-    processor.processImage(dir, "travel-to-japan")
+    val dir = File("")
+    processor.processImage(dir, "wordpress")
 }
 
 class MarkDownDocumentProcessor {
